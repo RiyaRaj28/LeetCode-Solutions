@@ -12,9 +12,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0120-triangle) |
 ## Matrix
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
