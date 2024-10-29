@@ -38,35 +38,74 @@
 // tabulation is a top down approach. we also did it through bottom up approach previously. 
 
 
+// class Solution {
+// public:
+//     int minFallingPathSum(vector<vector<int>>& matrix) 
+//     {
+//         int n = matrix.size();
+//         vector<vector<int>>table(n, vector<int>(n, 0));
+
+//         for(int j=0; j<n; j++) table[n-1][j] = matrix[n-1][j]; 
+
+//         for(int i=n-2; i>=0; i--)
+//         {
+//             for(int j=0; j<n; j++)
+//             {
+//                 int left = INT_MAX; 
+//                 int down = INT_MAX; 
+//                 int right = INT_MAX; 
+
+//                 if(i<n-1 && j>0) left = matrix[i][j] + table[i+1][j-1];
+//                 if(i<n-1) down = matrix[i][j] + table[i+1][j];
+//                 if(i<n-1 && j<n-1) right = matrix[i][j] + table[i+1][j+1];
+
+//                 table[i][j] = min(left, min(down, right)); 
+//             }
+//         }
+
+//         int ans = INT_MAX; 
+//         for(int i=0; i<n; i++)
+//         {
+//             if(table[0][i] < ans) ans = table[0][i];
+//         } 
+//         return ans; 
+//     }
+// };
+
+
+// TABULATION WITH SPACE OPTIMISATION 
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& matrix) 
     {
         int n = matrix.size();
-        vector<vector<int>>table(n, vector<int>(n, 0));
+        vector<int>next(n, 0); 
 
-        for(int j=0; j<n; j++) table[n-1][j] = matrix[n-1][j]; 
+        for(int j=0; j<n; j++) next[j] = matrix[n-1][j]; 
 
         for(int i=n-2; i>=0; i--)
         {
+            vector<int>curr(n, 0); 
             for(int j=0; j<n; j++)
             {
                 int left = INT_MAX; 
                 int down = INT_MAX; 
                 int right = INT_MAX; 
 
-                if(i<n-1 && j>0) left = matrix[i][j] + table[i+1][j-1];
-                if(i<n-1) down = matrix[i][j] + table[i+1][j];
-                if(i<n-1 && j<n-1) right = matrix[i][j] + table[i+1][j+1];
+                if(i<n-1 && j>0) left = matrix[i][j] + next[j-1];
+                if(i<n-1) down = matrix[i][j] + next[j];
+                if(i<n-1 && j<n-1) right = matrix[i][j] + next[j+1];
 
-                table[i][j] = min(left, min(down, right)); 
+                curr[j] = min(left, min(down, right)); 
             }
+
+            next = curr; 
         }
 
         int ans = INT_MAX; 
         for(int i=0; i<n; i++)
         {
-            if(table[0][i] < ans) ans = table[0][i];
+            if(next[i] < ans) ans = next[i];
         } 
         return ans; 
     }
