@@ -25,23 +25,45 @@
 class Solution {
 public:
 
-    int minimumTotal(vector<vector<int>>& triangle) {
-        int n = triangle.size();
-        vector<vector<int>>table(n, vector<int>(n, 0)); 
+    // int minimumTotal(vector<vector<int>>& triangle) {
+    //     int n = triangle.size();
+    //     vector<vector<int>>table(n, vector<int>(n, 0)); 
 
-        for(int i=0; i<n; i++) table[n-1][i] = triangle[n-1][i]; 
+    //     for(int i=0; i<n; i++) table[n-1][i] = triangle[n-1][i]; 
+
+    //     for(int i=n-2; i>=0; i--)
+    //     {
+    //         for(int j=i; j>=0; j--)
+    //         {
+    //                 int d = triangle[i][j] + table[i+1][j];
+    //                 int dg = triangle[i][j] + table[i+1][j+1];
+
+    //                 table[i][j] = min(d, dg);
+                
+    //         }
+    //     }
+    //     return table[0][0];
+    // }
+
+      // USING SPACE OPTIMISATION
+      int minimumTotal(vector<vector<int>>& triangle) {
+        int n = triangle.size();
+        vector<int>next(n, 0);
+
+        for(int i=0; i<n; i++) next[i] = triangle[n-1][i]; 
 
         for(int i=n-2; i>=0; i--)
         {
+            vector<int>curr(n, 0); 
             for(int j=i; j>=0; j--)
             {
-                    int d = triangle[i][j] + table[i+1][j];
-                    int dg = triangle[i][j] + table[i+1][j+1];
+                    int d = triangle[i][j] + next[j];
+                    int dg = triangle[i][j] + next[j+1];
 
-                    table[i][j] = min(d, dg);
-                
+                    curr[j] = min(d, dg);
             }
+            next = curr; 
         }
-        return table[0][0];
+        return next[0];
     }
 };
