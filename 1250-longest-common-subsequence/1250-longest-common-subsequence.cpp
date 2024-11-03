@@ -24,25 +24,48 @@ public:
     // }
 
     // TABULATION
-    int longestCommonSubsequence(string text1, string text2) 
-    {
+    // int longestCommonSubsequence(string text1, string text2) 
+    // {
+    //     int n = text1.length();
+    //     int m = text2.length();
+
+    //     vector<vector<int>>dp(n+1, vector<int>(m+1, 0));
+
+    //     for(int i=0; i<=n; i++) dp[i][0] = 0; 
+    //     for(int j=0; j<=m; j++) dp[0][j] = 0; 
+
+    //     for(int i1 = 1; i1 <= n; i1++)
+    //     {
+    //         for(int i2 = 1; i2 <= m; i2++)
+    //         {
+    //             if(text1[i1-1] == text2[i2-1]) dp[i1][i2] = 1 + dp[i1-1][i2-1];
+    //             else dp[i1][i2] = max(dp[i1-1][i2], dp[i1][i2-1]);
+    //         }
+    //     }
+    //     return dp[n][m]; 
+    // }
+
+
+    // TABULATION - SPACE OPTIMISED 
+    int longestCommonSubsequence(string text1, string text2) {
         int n = text1.length();
         int m = text2.length();
 
-        vector<vector<int>>dp(n+1, vector<int>(m+1, 0));
+        vector<int>prev(m+1, 0), curr(m+1, 0); 
 
-        for(int i=0; i<=n; i++) dp[i][0] = 0; 
-        for(int j=0; j<=m; j++) dp[0][j] = 0; 
+        for(int i=0; i<=m; i++) prev[i] = 0; 
+        // for(int j=0; j<=m; j++) dp[0][j] = 0; 
 
-        for(int i1 = 1; i1 <= n; i1++)
+        for(int i = 1; i <= n; i++)
         {
-            for(int i2 = 1; i2 <= m; i2++)
+            for(int j = 1; j <= m; j++)
             {
-                if(text1[i1-1] == text2[i2-1]) dp[i1][i2] = 1 + dp[i1-1][i2-1];
-                else dp[i1][i2] = max(dp[i1-1][i2], dp[i1][i2-1]);
+                if(text1[i-1] == text2[j-1]) curr[j] = 1 + prev[j-1]; //diagonal
+                else curr[j] = max(curr[j-1], prev[j]); //up or left
             }
+            prev = curr; 
         }
-        return dp[n][m]; 
+        return prev[m]; 
     }
 
 };
