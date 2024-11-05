@@ -1,5 +1,9 @@
 class Solution {
 public:
+
+   // this one question prevented me from getting selected in de shaw 
+   // prevented me from going to hyderabad 
+   // laid to waste my so much of hard work 
     int maxProfit(vector<int>& prices) 
     {
         int mini = prices[0]; 
