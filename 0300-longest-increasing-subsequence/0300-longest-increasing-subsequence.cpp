@@ -64,6 +64,16 @@ public:
 //                 dp[i][prev+1] = max(take, nottake); 
 //             }
 //         }
+
+//         for(int i=0; i<=n; i++)
+//         { 
+//             cout << "row[" << i << "] : ";
+//             for(int j=0; j<=n; j++)
+//             {
+//                 cout << dp[i][j] << " ";
+//             }
+//             cout << "\n"; 
+//         }
         
 //         return dp[0][0]; 
 //     }
@@ -71,28 +81,54 @@ public:
 
 // SPACE OPTIMISED
 
-int lengthOfLIS(vector<int>& nums) 
-    {
-        int n = nums.size(); 
-         vector<int>front(n+1), curr(n+1); 
+// int lengthOfLIS(vector<int>& nums) 
+//     {
+//         int n = nums.size(); 
+//          vector<int>front(n+1), curr(n+1); 
         
-        for(int i=n-1; i>-1; i--)
-        {
-            for(int prev = i-1; prev >= -1; prev--)
-            {
-                int nottake = front[prev+1]; 
-                int take = INT_MIN; 
-                if(prev == -1 || nums[i] > nums[prev])
-                {
-                    take = 1 + front[i+1]; 
-                }
+//         for(int i=n-1; i>-1; i--)
+//         {
+//             for(int prev = i-1; prev >= -1; prev--)
+//             {
+//                 int nottake = front[prev+1]; 
+//                 int take = INT_MIN; 
+//                 if(prev == -1 || nums[i] > nums[prev])
+//                 {
+//                     take = 1 + front[i+1]; 
+//                 }
                 
-                curr[prev+1] = max(take, nottake); 
-            }
+//                 curr[prev+1] = max(take, nottake); 
+//             }
 
-            front = curr; 
-        }
+//             front = curr; 
+//         }
         
-        return front[0]; 
+//         return front[0]; 
+//     }
+
+// EVEN MORE SPACE OPTIMISED 
+int lengthOfLIS(vector<int>& nums) 
+{
+    int n = nums.size();
+    vector<int>dp(n, 1); 
+    for(int ind = 0; ind<n; ind++)
+    {
+        for(int prev = 0; prev<ind; prev++)
+        {
+            if(nums[prev] < nums[ind]) 
+            {
+                dp[ind] = max(1 + dp[prev], dp[ind]); 
+            }
+        }
     }
+    int ans = INT_MIN; 
+
+    for(int i=0; i<n; i++)
+    {
+        if(dp[i] > ans) ans = dp[i];
+    }
+
+    return ans; 
+}
+
 };
