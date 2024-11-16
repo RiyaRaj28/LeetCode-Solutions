@@ -114,32 +114,61 @@
 
 
 
+// class Solution {
+// public:
+//     int minFallingPathSum(vector<vector<int>>& matrix) 
+//     {
+//        int n = matrix.size(); 
+//        vector<vector<int>>table(n, vector<int>(n, 0)); 
+
+//        for(int i=0; i<n; i++)
+//        {
+//         table[n-1][i] = matrix[n-1][i];
+//        }
+
+//        for(int i=n-2; i>=0; i--)
+//        {
+//         for(int j=n-1; j>=0; j--)
+//         {
+//             int left = (i<n-1 && j>0) ? table[i+1][j-1] : INT_MAX; 
+//             int down = (i<n-1) ? table[i+1][j] : INT_MAX;   
+//             int right = (i<n-1 && j<n-1) ? table[i+1][j+1] : INT_MAX; 
+
+//             table[i][j] = matrix[i][j] + min(left, min(down, right));  
+//         }
+//        }
+
+//        int ans = INT_MAX;
+//        for(int i=0; i<n; i++) if(table[0][i] < ans) ans = table[0][i];
+
+//        return ans; 
+//     }
+// };
+
+
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& matrix) 
     {
        int n = matrix.size(); 
-       vector<vector<int>>table(n, vector<int>(n, 0)); 
-
-       for(int i=0; i<n; i++)
-       {
-        table[n-1][i] = matrix[n-1][i];
-       }
-
+       vector<int>next(n, 0), curr(n, 0); 
+       for(int i=0; i<n; i++) next[i] = matrix[n-1][i]; 
+ 
        for(int i=n-2; i>=0; i--)
        {
         for(int j=n-1; j>=0; j--)
         {
-            int left = (i<n-1 && j>0) ? table[i+1][j-1] : INT_MAX; 
-            int down = (i<n-1) ? table[i+1][j] : INT_MAX;   
-            int right = (i<n-1 && j<n-1) ? table[i+1][j+1] : INT_MAX; 
+            int left = (j>0) ? next[j-1] : INT_MAX; 
+            int down = next[j];   
+            int right = (j<n-1) ? next[j+1] : INT_MAX; 
 
-            table[i][j] = matrix[i][j] + min(left, min(down, right));  
+            curr[j] = matrix[i][j] + min(left, min(down, right));  
         }
+        next = curr; 
        }
 
        int ans = INT_MAX;
-       for(int i=0; i<n; i++) if(table[0][i] < ans) ans = table[0][i];
+       for(int i=0; i<n; i++) if(next[i] < ans) ans = next[i];
 
        return ans; 
     }
