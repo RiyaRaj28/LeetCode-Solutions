@@ -9,7 +9,7 @@ public:
 
         int i=0, j=0; 
 
-        while(j != s.size() && i< g.size())
+        while(j < s.size() && i< g.size())
         {
             int greed = g[i];
 
