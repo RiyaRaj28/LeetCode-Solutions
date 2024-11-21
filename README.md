@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0135-candy](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0135-candy) |
+| [0136-single-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0136-single-number) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0198-house-robber) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [3291-find-if-array-can-be-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 ## Binary Search
