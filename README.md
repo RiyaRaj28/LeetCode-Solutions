@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0494-target-sum) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [3291-find-if-array-can-be-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 ## Dynamic Programming
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 ## Math
 |  |
 | ------- |
@@ -160,4 +162,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0268-missing-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0268-missing-number) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 <!---LeetCode Topics End-->
