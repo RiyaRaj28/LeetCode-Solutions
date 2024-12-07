@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
 | [0189-rotate-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0189-rotate-array) |
+| [0234-palindrome-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0455-assign-cookies](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [2232-adding-spaces-to-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
+| [0234-palindrome-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0678-valid-parenthesis-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 ## Tree
 |  |
@@ -194,9 +196,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
+| [0234-palindrome-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0237-delete-node-in-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0021-merge-two-sorted-lists) |
+| [0234-palindrome-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
