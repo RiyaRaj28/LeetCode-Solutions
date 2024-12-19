@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0494-target-sum) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0135-candy) |
 | [0455-assign-cookies](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
+| [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [1917-maximum-average-pass-ratio](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2300-construct-string-with-repeat-limit](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0268-missing-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0455-assign-cookies) |
+| [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
@@ -178,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0678-valid-parenthesis-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
+| [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Tree
 |  |
@@ -238,5 +242,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 <!---LeetCode Topics End-->
