@@ -242,11 +242,13 @@ public:
         // upto the 0th row 
         int n = matrix.size();
 
-        vector<vector<int>>table(n, vector<int>(n, 0));
+        // vector<vector<int>>table(n, vector<int>(n, 0));
+        vector<int>next(n, 0); 
+        vector<int>curr(n, 0); 
 
         for(int j=0; j<n; j++)
         {
-            table[n-1][j] = matrix[n-1][j];
+            next[j] = matrix[n-1][j];
         }
 
         int ans = 1e8; 
@@ -255,20 +257,20 @@ public:
         {
             for(int j=0; j<n; j++)
             {
-                int d = i<n-1 ? table[i+1][j] : 1e8;
-                int dl = (i<n-1 && j>0) ? table[i+1][j-1] : 1e8;
-                int dr = (i<n-1 && j<n-1) ? table[i+1][j+1] : 1e8;
+                int d = next[j];
+                int dl = j>0 ? next[j-1] : 1e8;
+                int dr = j<n-1 ? next[j+1] : 1e8;
  
-                table[i][j] = matrix[i][j] + min(d, min(dl, dr)); 
+                curr[j] = matrix[i][j] + min(d, min(dl, dr)); 
             }
+            next = curr; 
         }
 
         // int ans = 1e8; 
         for(int i=0; i<n; i++)
         {
-            if(table[0][i] < ans) ans = table[0][i];
+            if(next[i] < ans) ans = next[i];
         }
-
         return ans;
     }
 };
