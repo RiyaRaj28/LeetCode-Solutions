@@ -87,25 +87,80 @@ public:
     // }
 
     //SPACE OPTIMISATION
-    int rob(vector<int>& nums){
+    // int rob(vector<int>& nums){
 
+    //     int n = nums.size();
+    //     int p1 = nums[0];
+    //     int p2 = 0;
+    //     for(int i=1; i<n; i++)
+    //     {
+    //         int pick = nums[i];
+    //         if(i>1) pick += p2;
+
+    //         int nonpick = p1;
+
+    //         int curr = max(pick, nonpick);
+    //         p2 = p1;
+    //         p1 = curr;
+    //     }
+
+    //     return p1;
+    // }
+
+
+
+
+
+
+
+
+
+   int total(vector<int>&nums, int ind)
+   {
+        if(ind >= nums.size()) return 0; 
+
+        int take = nums[ind] + total(nums, ind+2); 
+        int nottake = total(nums, ind+1); 
+
+        return max(take, nottake); 
+   }
+
+    int rob(vector<int>& nums)
+    {
         int n = nums.size();
-        int p1 = nums[0];
-        int p2 = 0;
-        for(int i=1; i<n; i++)
+
+        // we cant rob adjacent houses 
+        // so if we take nums[ind] then we can take nums[ind] + 2 only 
+        int maxi = 0;
+
+        // return total(nums, 0); 
+        vector<int>table(n, 0); 
+        table[0] = nums[0];
+
+        for(int ind=1; ind<n; ind++)
         {
-            int pick = nums[i];
-            if(i>1) pick += p2;
+            int take = nums[ind]; 
+            // int nottake = INT_MIN; 
+            if(ind>1) take += table[ind-2]; 
+            int nottake = table[ind-1]; 
 
-            int nonpick = p1;
-
-            int curr = max(pick, nonpick);
-            p2 = p1;
-            p1 = curr;
+            table[ind] = max(take, nottake);
         }
 
-        return p1;
+        return table[n-1]; 
+
+
     }
+
+
+
+
+
+
+
+
+
+
 
 
 
