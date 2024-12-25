@@ -103,7 +103,83 @@ public:
     // }
 
 
-    int minimumOperations(TreeNode* root) 
+//     int minimumOperations(TreeNode* root) 
+//     {
+
+//         queue<TreeNode*>q; 
+//         // vector<vector<int>>ans; 
+//         int count = 0; 
+
+//         q.push(root); 
+
+//         while(!q.empty())
+//         {
+//             int size = q.size();
+//             vector<int>level;
+
+//             for(int i=0; i<size; i++)
+//             {
+//                 TreeNode* node = q.front(); 
+//                 q.pop(); 
+//                 // cout << node->val << "\n"; 
+    
+//                 if(node->left) q.push(node->left); 
+//                 if(node->right) q.push(node->right);
+//                 level.push_back(node->val);
+//             }
+//             // ans.push_back(level);
+//             // cout << level.size() << "size";
+//             count += countSwaps(level); 
+//         }
+
+//         // int total = 0; 
+//         // for(int i=0; i<ans.size(); i++)
+//         // {
+//         //     int var = cyclesort(ans[i]);
+//         //     total += var;
+//         // }
+
+//         // return total; 
+//         return count; 
+        
+//     }
+
+// private : 
+//     int countSwaps(vector<int>arr)
+//     {
+//         int n = arr.size();
+//         int swaps = 0; 
+//         vector<pair<int, int>>indexedArray; 
+
+//         for(int i=0; i<n; i++)
+//         {
+//             indexedArray.push_back({arr[i], i});
+//         }
+
+//         sort(indexedArray.begin(), indexedArray.end()); 
+//         vector<bool>visited(n, false); 
+
+//         for(int i=0; i<n; i++)
+//         {
+//             if(visited[i] || indexedArray[i].second == i) continue; 
+
+//             int cycle_size = 0; 
+//             int j = i; 
+
+//             while(!visited[j])
+//             {
+//                 visited[j] = true; 
+//                 j = indexedArray[j].second; 
+//                 cycle_size++; 
+//             }
+
+//             if(cycle_size > 1) swaps += cycle_size - 1; 
+//         }
+//         return swaps; 
+//     }
+
+//method 3 
+   int minimumOperations(TreeNode* root) 
     {
 
         queue<TreeNode*>q; 
@@ -147,36 +223,30 @@ public:
 private : 
     int countSwaps(vector<int>arr)
     {
-        int n = arr.size();
+        int n = arr.size(); 
         int swaps = 0; 
-        vector<pair<int, int>>indexedArray; 
+        vector<int>target = arr; 
+        sort(target.begin(), target.end()); 
+
+        unordered_map<int, int>pos_map; 
 
         for(int i=0; i<n; i++)
         {
-            indexedArray.push_back({arr[i], i});
+            pos_map[arr[i]] = i; 
         }
-
-        sort(indexedArray.begin(), indexedArray.end()); 
-        vector<bool>visited(n, false); 
 
         for(int i=0; i<n; i++)
         {
-            if(visited[i] || indexedArray[i].second == i) continue; 
+            if(target[i] == arr[i]) continue; 
 
-            int cycle_size = 0; 
-            int j = i; 
+            // when the target element is ot at its right position 
 
-            while(!visited[j])
-            {
-                visited[j] = true; 
-                j = indexedArray[j].second; 
-                cycle_size++; 
-            }
-
-            if(cycle_size > 1) swaps += cycle_size - 1; 
+            if(target[i] != arr[i]) swaps++; 
+            int curr_pos_of_org = pos_map[target[i]]; 
+            pos_map[arr[i]] = curr_pos_of_org; 
+            swap(arr[curr_pos_of_org], arr[i]); 
         }
+
         return swaps; 
     }
-
-
 };
