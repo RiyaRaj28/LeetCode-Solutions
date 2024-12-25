@@ -64,19 +64,51 @@ public:
 
 
     }
+    // int minimumOperations(TreeNode* root) 
+    // {
+
+    //     queue<TreeNode*>q; 
+    //     vector<vector<int>>ans; 
+
+    //     q.push(root); 
+
+    //     while(!q.empty())
+    //     {
+    //         int size = q.size();
+    //         vector<int>level;
+
+    //         for(int i=0; i<size; i++)
+    //         {
+    //             TreeNode* node = q.front(); 
+    //             q.pop(); 
+    //             // cout << node->val << "\n"; 
+    
+    //             if(node->left) q.push(node->left); 
+    //             if(node->right) q.push(node->right);
+    //             level.push_back(node->val);
+    //         }
+    //         ans.push_back(level);
+    //         // cout << level.size() << "size";
+    //     }
+
+    //     int total = 0; 
+    //     for(int i=0; i<ans.size(); i++)
+    //     {
+    //         int var = cyclesort(ans[i]);
+    //         total += var;
+    //     }
+
+    //     return total; 
+        
+    // }
+
+
     int minimumOperations(TreeNode* root) 
     {
-        // bfs -> put in a queue 
-        // pop first the parent
-        // then if the lc and rc are not already in the queue then push them in 
-
-        // doing a bfs here 
-        // breadth first search 
-        // level wise bfs occurs 
-        // 
 
         queue<TreeNode*>q; 
-        vector<vector<int>>ans; 
+        // vector<vector<int>>ans; 
+        int count = 0; 
 
         q.push(root); 
 
@@ -95,37 +127,56 @@ public:
                 if(node->right) q.push(node->right);
                 level.push_back(node->val);
             }
-            ans.push_back(level);
+            // ans.push_back(level);
             // cout << level.size() << "size";
+            count += countSwaps(level); 
         }
 
-
+        // int total = 0; 
         // for(int i=0; i<ans.size(); i++)
         // {
-        //     for(int j=0; j<ans[i].size(); j++)
-        //     {
-        //         cout << ans[i][j] << " ";
-        //     }
-        //     cout << "\n"; 
+        //     int var = cyclesort(ans[i]);
+        //     total += var;
         // }
 
-        int total = 0; 
-        for(int i=0; i<ans.size(); i++)
-        {
-            int var = cyclesort(ans[i]);
-            total += var;
-        }
-
-        // for(int i=0; i<ans.size(); i++)
-        // {
-        //     for(int j=0; j<ans[i].size(); j++)
-        //     {
-        //         cout << ans[i][j] << " ";
-        //     }
-        //     cout << "\n"; 
-        // }
-
-        return total; 
+        // return total; 
+        return count; 
         
     }
+
+private : 
+    int countSwaps(vector<int>arr)
+    {
+        int n = arr.size();
+        int swaps = 0; 
+        vector<pair<int, int>>indexedArray; 
+
+        for(int i=0; i<n; i++)
+        {
+            indexedArray.push_back({arr[i], i});
+        }
+
+        sort(indexedArray.begin(), indexedArray.end()); 
+        vector<bool>visited(n, false); 
+
+        for(int i=0; i<n; i++)
+        {
+            if(visited[i] || indexedArray[i].second == i) continue; 
+
+            int cycle_size = 0; 
+            int j = i; 
+
+            while(!visited[j])
+            {
+                visited[j] = true; 
+                j = indexedArray[j].second; 
+                cycle_size++; 
+            }
+
+            if(cycle_size > 1) swaps += cycle_size - 1; 
+        }
+        return swaps; 
+    }
+
+
 };
