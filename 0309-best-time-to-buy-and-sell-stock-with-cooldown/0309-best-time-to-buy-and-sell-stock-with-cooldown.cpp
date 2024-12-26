@@ -72,34 +72,67 @@ public:
     //     return dp[0][1];
     // }
 
-    int maxProfit(vector<int>& prices)
+    // int maxProfit(vector<int>& prices)
+    // {
+    //     int n = prices.size(); 
+    //     vector<int>curr(2, 0), ahead1(2, 0), ahead2(2, 0); 
+
+    //    for(int i=n-1; i>=0; i--)
+    //     {
+    //         curr[1] = max(-prices[i] + ahead1[0], 0 + ahead1[1]);
+    //         curr[0] = max(prices[i] + ahead2[1], ahead1[0]);
+
+    //         ahead2 = ahead1; 
+    //         ahead1 = curr; 
+
+    //         cout<< "row ["<< i <<"]" << curr[0] << " " << curr[1] << "\n";
+    //     }
+
+    //     return ahead1[1];
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    int maxProfit(vector<int>& profit)
     {
-        int n = prices.size(); 
-        vector<int>curr(2, 0), ahead1(2, 0), ahead2(2, 0); 
+        int n = profit.size();
+        int buy = 2; 
+        vector<vector<int>>table(n+2, vector<int>(buy, 0));
 
-       for(int i=n-1; i>=0; i--)
+        for(int i=n-1; i>=0; i--)
         {
-            curr[1] = max(-prices[i] + ahead1[0], 0 + ahead1[1]);
-            curr[0] = max(prices[i] + ahead2[1], ahead1[0]);
-
-            ahead2 = ahead1; 
-            ahead1 = curr; 
-
-            cout<< "row ["<< i <<"]" << curr[0] << " " << curr[1] << "\n";
+            for(int buy=0; buy<=1; buy++)
+            {
+                table[i][buy] = buy>0 
+                                ? max(-profit[i]+table[i+1][0], table[i+1][1])
+                                : max(profit[i]+table[i+2][1], table[i+1][0]);
+            }
         }
-
-        // for(int i=0; i<=n+1; i++)
-        // {
-        //     cout << "row[" << i << "] : " ;
-        //     for(int j=0; j<=1; j++)
-        //     {
-        //         cout << dp[i][j] << " ";
-        //     }
-        //     cout << "\n"; 
-        // }
-
-        return ahead1[1];
+        return table[0][1];
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 };
