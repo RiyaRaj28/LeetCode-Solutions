@@ -47,25 +47,87 @@ public:
     //     return dp[n-1][s1]; 
     // }
 
+    // int solve(vector<int>&nums, int target, int ind)
+    // {
+    //     int n = nums.size(); 
+    //     // if(target == 0) return 1; 
+    //     // if(ind >= n) return 0; 
+
+    //     if(ind == n) return target == 0 ? 1 : 0;
+
+    //     int sum = solve(nums, target-nums[ind], ind+1); 
+    //     int sub = solve(nums, target+nums[ind], ind+1); 
+    //     return sum+sub; 
+    // }
+
+
+    // int findTargetSumWays(vector<int>& nums, int target) 
+    // {
+    //     return solve(nums, target, 0); 
+        
+    // }
+
+
+
+
+
+
+
+
+
     int solve(vector<int>&nums, int target, int ind)
     {
-        int n = nums.size(); 
-        // if(target == 0) return 1; 
-        // if(ind >= n) return 0; 
+        if(ind < 0) return 0; 
+        
+        if(ind == 0)
+        {
+            if(target == 0 && nums[0] == 0) return 2; 
+            else if(target == 0 || nums[0] == target) return 1; 
+            else return 0; 
+        }
+        
 
-        if(ind == n) return target == 0 ? 1 : 0;
+        //have to find target sum only simply 
+        // rest func will handle 
 
-        int sum = solve(nums, target-nums[ind], ind+1); 
-        int sub = solve(nums, target+nums[ind], ind+1); 
-        return sum+sub; 
+        int take = nums[ind] <=target ? solve(nums, target-nums[ind], ind-1) : 0;
+        int nottake = solve(nums, target, ind-1);
+
+        return take+nottake; 
     }
 
 
+    // have to count the partitions with difference 0 
     int findTargetSumWays(vector<int>& nums, int target) 
     {
-        return solve(nums, target, 0); 
+        // return solve(nums, target, 0); 
+        // int final_target = (target/2);
+        // if(final_target%2 != 0) return 0; 
+        int n = nums.size();
+
+        int sum = 0; 
+        for(int i=0; i<n; i++) sum += nums[i]; 
+ 
+        if(sum - target < 0) return 0; 
+        if((sum-target)%2 != 0) return 0; 
+        int targ = (sum-target)/2; 
+
+        return solve(nums, targ, n-1);
         
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 };
