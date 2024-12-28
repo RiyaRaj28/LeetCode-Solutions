@@ -184,16 +184,30 @@ int lengthOfLIS(vector<int>& nums)
         //     cout << "\n"; 
         // }
 
-    for(int i=n-1; i>=0; i--)
-    {
-        for(int j=i-1; j>=-1; j--)
-        {
-            int take = (j==-1 || nums[i]>nums[j]) ? 1 + table[i+1][i+1] : INT_MIN;
-            int nottake = table[i+1][j+1];
+        //space optimised 
+        vector<int>ahead(n+1, 0); 
+        vector<int>curr(n+1, 0);
 
-            table[i][j+1] = max(take, nottake); 
-        }
-    }
+    // for(int i=n-1; i>=0; i--)
+    // {
+    //     for(int j=i-1; j>=-1; j--)
+    //     {
+    //         // int take = (j==-1 || nums[i]>nums[j]) ? 1 + table[i+1][i+1] : INT_MIN;
+    //         // int nottake = table[i+1][j+1];
+
+    //         // table[i][j+1] = max(take, nottake); 
+
+    //         int take = (j==-1 || nums[i]>nums[j]) ? 1 + ahead[i+1] : INT_MIN; 
+    //         int nottake = ahead[j+1];
+
+    //         curr[j+1] = max(take, nottake);
+    //     }
+    //     ahead = curr; 
+    
+    // }
+
+    // return ahead[0]; 
+
 
         // for(int i=0; i<=n; i++)
         // { 
@@ -205,6 +219,34 @@ int lengthOfLIS(vector<int>& nums)
         //     cout << "\n"; 
         // }
 
-    return table[0][0]; 
+    // return table[0][0]; 
+
+
+
+    //binary search 
+
+    // we try to find a greater element in i-1 to 0 
+    // if found, add 1
+    // else do a lower bound bs and place element at that index ?
+
+    vector<int>temp; 
+
+    temp.push_back(nums[0]);
+
+    for(int i=1; i<nums.size(); i++)
+    {
+        if(nums[i]>temp.back()) temp.push_back(nums[i]);
+        else
+        {
+            int lb = lower_bound(temp.begin(), temp.end(), nums[i]) - temp.begin();
+            temp[lb] = nums[i];
+        }
+    }
+
+    for(int i=0; i<nums.size(); i++) cout << nums[i] << " ";
+    cout << "\n"; 
+    for(int i=0; i<temp.size(); i++) cout << temp[i] << " "; 
+
+    return temp.size();
 }
 };
