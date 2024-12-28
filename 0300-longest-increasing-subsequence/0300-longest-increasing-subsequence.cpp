@@ -107,28 +107,104 @@ public:
 //     }
 
 // EVEN MORE SPACE OPTIMISED 
+// int lengthOfLIS(vector<int>& nums) 
+// {
+//     int n = nums.size();
+//     vector<int>dp(n, 1); 
+//     for(int ind = 0; ind<n; ind++)
+//     {
+//         for(int prev = 0; prev<ind; prev++)
+//         {
+//             if(nums[prev] < nums[ind]) 
+//             {
+//                 dp[ind] = max(1 + dp[prev], dp[ind]); 
+//             }
+//         }
+//     }
+//     int ans = INT_MIN; 
+
+//     for(int i=0; i<n; i++)
+//     {
+//         if(dp[i] > ans) ans = dp[i];
+//     }
+
+//     return ans; 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// have to solve such that we get the longest increasing subsequence count
+//iske liye, take arr[i] only if it is greater that the previous index value 
+
+
+int solve(vector<int>&nums, int ind, int prev, vector<vector<int>>&dp)
+{
+    int n= nums.size();
+    if(ind == n) return 0; 
+
+    if(dp[ind][prev+1] != -1) return dp[ind][prev+1]; 
+
+    int take = (prev==-1 || nums[ind]>nums[prev]) ? 1 + solve(nums, ind+1, ind, dp) : INT_MIN; 
+    int nottake = solve(nums, ind+1, prev, dp); 
+
+    return dp[ind][prev+1] = max(take, nottake); 
+
+}
+
 int lengthOfLIS(vector<int>& nums) 
 {
     int n = nums.size();
-    vector<int>dp(n, 1); 
-    for(int ind = 0; ind<n; ind++)
+    vector<vector<int>>dp(n, vector<int>(n+1, -1));
+
+    // return solve(nums, 0, -1, dp); 
+
+    vector<vector<int>>table(n+1, vector<int>(n+1, 0)); 
+    // for(int i=0; i<=n; i++) table[n][i] = 1; 
+        // for(int i=0; i<=n; i++)
+        // { 
+        //     cout << "row[" << i << "] : ";
+        //     for(int j=0; j<=n; j++)
+        //     {
+        //         cout << table[i][j] << " ";
+        //     }
+        //     cout << "\n"; 
+        // }
+
+    for(int i=n-1; i>=0; i--)
     {
-        for(int prev = 0; prev<ind; prev++)
+        for(int j=i-1; j>=-1; j--)
         {
-            if(nums[prev] < nums[ind]) 
-            {
-                dp[ind] = max(1 + dp[prev], dp[ind]); 
-            }
+            int take = (j==-1 || nums[i]>nums[j]) ? 1 + table[i+1][i+1] : INT_MIN;
+            int nottake = table[i+1][j+1];
+
+            table[i][j+1] = max(take, nottake); 
         }
     }
-    int ans = INT_MIN; 
 
-    for(int i=0; i<n; i++)
-    {
-        if(dp[i] > ans) ans = dp[i];
-    }
+        // for(int i=0; i<=n; i++)
+        // { 
+        //     cout << "row[" << i << "] : ";
+        //     for(int j=0; j<=n; j++)
+        //     {
+        //         cout << table[i][j] << " ";
+        //     }
+        //     cout << "\n"; 
+        // }
 
-    return ans; 
+    return table[0][0]; 
 }
-
 };
