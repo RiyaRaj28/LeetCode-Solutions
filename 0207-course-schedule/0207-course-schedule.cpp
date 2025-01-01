@@ -1,23 +1,28 @@
 class Solution {
 public:
+    bool directDFS(vector<vector<int>>&adj, vector<bool>&inRecursion, int u, vector<bool>&visited)
+    {
+        visited[u] = true; 
+        inRecursion[u] = true; 
+
+        for(int &v : adj[u])
+        {
+            if(!visited[v])
+            {
+                if(directDFS(adj, inRecursion, v, visited)) return true; 
+            }
+            else if(inRecursion[v]) return true; 
+        }
+        inRecursion[u] = false; 
+
+        return false; 
+    }
+
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) 
     {
-        //return false if a cycle exists in the graph 
-
-        // ways -> 
-        // 1. direc bfs 
-        // 2. direc dfs 
-        // 3. undirec bfs 
-        // 4. undirec dfs 
-
-        // have to use direc bfs or direc sfs 
-        // direc bfs -> kanhs algo -> indegree vec 
-        /// if count of the nodes is equal to the number popped : no cycle
-
-        // direc dfs -> inrecursion 
-        int V = numCourses; 
-        vector<int>indegree(V, 0); 
-        vector<vector<int>>adj(V);
+        vector<vector<int>>adj(numCourses);
+        vector<bool>visited(numCourses, false); 
+        vector<bool>inRecursion(numCourses, false);
 
         for(auto &it : prerequisites)
         {
@@ -25,30 +30,15 @@ public:
             int v = it[0];
 
             adj[u].push_back(v);
-            indegree[v]++;
         }
 
-        queue<int>q; 
-        for(int u=0; u<V; u++)
+        for(int u=0; u<numCourses; u++)
         {
-            if(indegree[u] == 0) q.push(u); 
-        }
-
-        int count = 0; 
-        while(!q.empty())
-        {
-            int u = q.front(); 
-            q.pop(); 
-            count++; 
-
-            for(int &v : adj[u])
+            if(!visited[u])
             {
-                indegree[v]--;
-                if(indegree[v] == 0) q.push(v); 
+                if(directDFS(adj, inRecursion, u, visited)) return false; 
             }
         }
-
-        if(count == V) return true; 
-        return false; 
+        return true; 
     }
 };
