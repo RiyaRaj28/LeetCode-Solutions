@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0494-target-sum) |
+| [0542-01-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
+| [0542-01-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
+| [0542-01-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -153,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0542-01-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
 | [1036-rotting-oranges](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
