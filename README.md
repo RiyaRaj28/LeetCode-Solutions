@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1073-number-of-enclaves) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1073-number-of-enclaves) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [1917-maximum-average-pass-ratio](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2300-construct-string-with-repeat-limit](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 ## Counting
@@ -321,9 +324,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0207-course-schedule) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
