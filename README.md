@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2232-adding-spaces-to-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2232-adding-spaces-to-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -340,4 +342,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0744-network-delay-time](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+## Prefix Sum
+|  |
+| ------- |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 <!---LeetCode Topics End-->
