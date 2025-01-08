@@ -272,6 +272,39 @@ public:
       return count; 
   }
 
+ int bellmanFord(int source, int n, int threshold, vector<vector<pair<int, int>>>adj, vector<vector<int>>edges)
+ {
+    vector<int>result(n, INT_MAX); 
+    result[source] = 0; 
+
+    for(int i=1; i<n; i++)
+    {
+        for(auto &edge : edges)
+        {
+            int u = edge[0]; 
+            int v = edge[1]; 
+            int wt = edge[2];
+
+            if(result[u] != INT_MAX && result[u]+wt<result[v])
+            {
+                result[v] = result[u] + wt; 
+            }
+
+            if(result[v] != INT_MAX && result[v] + wt < result[u])
+            {
+                result[u] = result[v] + wt;
+            }
+        }
+    }
+    int count = 0; 
+
+    for(int i=0; i<n; i++)
+    {
+        if(result[i] <= threshold) count++; 
+    }
+
+    return count; 
+ }
 
    //dijkstra is to be applied on every single one node 
  int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
@@ -283,6 +316,7 @@ public:
     // min cities means the least num of cities within the threshold dist
 
     // vector<pair<int,int>>adj(n); 
+
     vector<vector<pair<int, int>>>adj(n);
 for(const auto& edge : edges)
 {
@@ -299,7 +333,7 @@ for(const auto& edge : edges)
     // vector<vector<int>>dist(n, vector<int>(n, INT_MAX)); 
     for(int i=0; i<n; i++)
     {
-        int mincities = dijkstra(i, n, distanceThreshold, adj);
+        int mincities = bellmanFord(i, n, distanceThreshold, adj, edges);
         if(mincities <= count) 
         {
             count = mincities; 
@@ -309,4 +343,22 @@ for(const auto& edge : edges)
     }
     return city; 
  }
+
+
+   // now trying out bellman ford algo 
+  // in bellman ford, we relax the edges (v-1) times and we get the 
+  // min distane to all edges 
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
