@@ -230,10 +230,6 @@ public:
 //         return findRequiredCity(matrix, n, distanceThreshold);
 //     }
 
-
-
-
-
   int dijkstra(int source, int n, int distanceThreshold, vector<vector<pair<int, int>>>&adj)
   {
       vector<int>dis(n, INT_MAX); 
@@ -307,44 +303,42 @@ public:
  }
 
    //dijkstra is to be applied on every single one node 
- int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
- {
-    // dijkstra has to be applied on every node to be able to find out the min distance that every node takes from the other nodes 
+//  int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
+//  {
+//     // dijkstra has to be applied on every node to be able to find out the min distance that every node takes from the other nodes 
 
-    // will have to be stored in a 2d array for it 
-    // we have to find out min cities within threshold distance 
-    // min cities means the least num of cities within the threshold dist
+//     // will have to be stored in a 2d array for it 
+//     // we have to find out min cities within threshold distance 
+//     // min cities means the least num of cities within the threshold dist
 
-    // vector<pair<int,int>>adj(n); 
+//     // vector<pair<int,int>>adj(n); 
 
-    vector<vector<pair<int, int>>>adj(n);
-for(const auto& edge : edges)
-{
-    int u = edge[0]; 
-    int v = edge[1];
-    int wt = edge[2]; 
+//     vector<vector<pair<int, int>>>adj(n);
+// for(const auto& edge : edges)
+// {
+//     int u = edge[0]; 
+//     int v = edge[1];
+//     int wt = edge[2]; 
 
-    adj[u].push_back({v, wt}); 
-    adj[v].push_back({u, wt}); 
-}
-    int count = INT_MAX; 
-    int city = 0; 
+//     adj[u].push_back({v, wt}); 
+//     adj[v].push_back({u, wt}); 
+// }
+//     int count = INT_MAX; 
+//     int city = 0; 
 
-    // vector<vector<int>>dist(n, vector<int>(n, INT_MAX)); 
-    for(int i=0; i<n; i++)
-    {
-        int mincities = bellmanFord(i, n, distanceThreshold, adj, edges);
-        if(mincities <= count) 
-        {
-            count = mincities; 
-            city = i; 
-        }
-        // count = min(count, mincities);
-    }
-    return city; 
- }
-
-
+//     // vector<vector<int>>dist(n, vector<int>(n, INT_MAX)); 
+//     for(int i=0; i<n; i++)
+//     {
+//         int mincities = bellmanFord(i, n, distanceThreshold, adj, edges);
+//         if(mincities <= count) 
+//         {
+//             count = mincities; 
+//             city = i; 
+//         }
+//         // count = min(count, mincities);
+//     }
+//     return city; 
+//  }
    // now trying out bellman ford algo 
   // in bellman ford, we relax the edges (v-1) times and we get the 
   // min distane to all edges 
@@ -354,11 +348,62 @@ for(const auto& edge : edges)
 
 
 
+// NOW TRYING OUT FLYOD WARSHAL ALGORITHM 
+  int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
+ {
+    // dijkstra has to be applied on every node to be able to find out the min distance that every node takes from the other nodes 
 
+    // will have to be stored in a 2d array for it 
+    // we have to find out min cities within threshold distance 
+    // min cities means the least num of cities within the threshold dist
 
+    vector<vector<int>>dis(n, vector<int>(n, 1e5));
+    for(auto &edge : edges)
+    {
+        int u = edge[0];
+        int v = edge[1];
+        int wt = edge[2];
 
+        dis[u][v] = wt;
+        dis[v][u] = wt;
+    }
 
+// Initialize distances
+        for (int i = 0; i < n; i++) {
+            dis[i][i] = 0;
+        }
 
+    //applying floyd warshal 
+    for(int via=0; via<n; via++)
+    {
+        for(int i=0; i<n; i++)
+        {
+            for(int j=0; j<n; j++)
+            {
+                if(dis[i][via]!=1e5 && dis[via][j]!=1e5)
+                    dis[i][j] = min(dis[i][j], dis[i][via]+dis[via][j]);
+            }
+        }
+    }
 
+    int city = 0; 
+    int mincount = INT_MAX; 
+    for(int i=0; i<n; i++)
+    {
+        int count = 0; 
+        for(int j=0; j<n; j++)
+        {
+            if(dis[i][j] <= distanceThreshold) count++;
+        }
+
+        if(count <= mincount)
+        {
+            mincount = count; 
+            city = i; 
+        }
+    }
+
+    return city;
+ }
 
 };
