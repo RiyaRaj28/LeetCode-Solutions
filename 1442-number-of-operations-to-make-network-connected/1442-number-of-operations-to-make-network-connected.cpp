@@ -40,21 +40,27 @@ public:
         parent.resize(n);
         rank.resize(n, 0); 
         for(int i=0; i<n; i++) parent[i] = i; 
+        int comps = n; 
 
         for(auto &vec : connections)
         {
             int u = vec[0];
             int v = vec[1];
 
-            if(find(u) != find(v)) Union(u, v);
+            if(find(u) != find(v)) 
+            {
+                Union(u, v);
+                comps--;
+            }
         }
 
-        set<int>st; 
-        for(int i=0; i<n; i++)
-        {
-            st.insert(find(i));
-        }
+        // set<int>st; 
+        // for(int i=0; i<n; i++)
+        // {
+        //     st.insert(find(i));
+        // }
 
-        return st.size()-1; 
+        // return st.size()-1; 
+        return comps-1; 
     }
 };
