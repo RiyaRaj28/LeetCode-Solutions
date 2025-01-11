@@ -27,7 +27,7 @@ public:
 
         vector<int>visited(row, 0); 
 
-        vector<vector<int>>adj(n, vector<int>(n, 0));
+        vector<vector<int>>adj(n);
         for(int u=0; u<row; u++)
         {
             for(int v=0; v<col; v++)
