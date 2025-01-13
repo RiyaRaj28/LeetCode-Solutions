@@ -7,87 +7,87 @@ public:
         // but have to apply on each vertex now
         // every row index is a source 
         // will have a result vector for each column 
-//     int findRequiredCity(vector<vector<int>> matrix, int n, int threshold)
-//     {
-//         int minCount = INT_MAX; 
-//         int city = -1; 
-//         for(int i=0; i<n; i++)
-//         {
-//             int countReach = 0; 
-//             for(int j=0; j<n; j++)
-//             {
-//                 if(i!=j && matrix[i][j]<=threshold)
-//                     countReach++; 
-//             }
+    int findRequiredCity(vector<vector<int>> matrix, int n, int threshold)
+    {
+        int minCount = INT_MAX; 
+        int city = -1; 
+        for(int i=0; i<n; i++)
+        {
+            int countReach = 0; 
+            for(int j=0; j<n; j++)
+            {
+                if(i!=j && matrix[i][j]<=threshold)
+                    countReach++; 
+            }
 
-//             if(countReach <= minCount)
-//             {
-//                 minCount = countReach; 
-//                 city = i; 
-//             }
-//         }
+            if(countReach <= minCount)
+            {
+                minCount = countReach; 
+                city = i; 
+            }
+        }
 
-//         return city; 
-//     }
+        return city; 
+    }
 
-//     vector<int> dijkstra(unordered_map<int, vector<p>>adj, int source, vector<int>&result, int n)
-//     {
-//         priority_queue<p, vector<p>, greater<p>> pq; 
-//         pq.push({0, source});
-//         fill(result.begin(), result.end(), 1e5);
-//         result[source] = 0; 
+    vector<int> dijkstra(unordered_map<int, vector<p>>adj, int source, vector<int>&result, int n)
+    {
+        priority_queue<p, vector<p>, greater<p>> pq; 
+        pq.push({0, source});
+        fill(result.begin(), result.end(), 1e5);
+        result[source] = 0; 
 
-//         while(!pq.empty())
-//         {
-//             int node = pq.top().second; 
-//             int d = pq.top().first; 
-//             pq.pop();
+        while(!pq.empty())
+        {
+            int node = pq.top().second; 
+            int d = pq.top().first; 
+            pq.pop();
 
-//             for(auto &it : adj[node])
-//             {
-//                 int anode = it.first;
-//                 int ad = it.second;
+            for(auto &it : adj[node])
+            {
+                int anode = it.first;
+                int ad = it.second;
 
-//                 if(d + ad < result[anode])
-//                 {
-//                     result[anode] = d + ad; 
-//                     pq.push({d + ad, anode}); 
-//                 }
-//             }
-//         }
+                if(d + ad < result[anode])
+                {
+                    result[anode] = d + ad; 
+                    pq.push({d + ad, anode}); 
+                }
+            }
+        }
 
-//         return result; 
+        return result; 
 
 
 
-//     }
+    }
 
-// //DIJKSTRA 
-//     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
-//     {
-//         vector<vector<int>> matrix(n, vector<int>(n, 1e5)); 
-//         for(int i=0; i<n; i++) matrix[i][i] = 0; 
+//DIJKSTRA 
+    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
+    {
+        vector<vector<int>> matrix(n, vector<int>(n, 1e5)); 
+        for(int i=0; i<n; i++) matrix[i][i] = 0; 
 
-//         unordered_map<int, vector<p>>adj;
-//         for(auto &it : edges)
-//         {
-//             int u = it[0];
-//             int v = it[1];
-//             int wt = it[2];
+        unordered_map<int, vector<p>>adj;
+        for(auto &it : edges)
+        {
+            int u = it[0];
+            int v = it[1];
+            int wt = it[2];
 
-//             adj[u].push_back({v, wt});
-//             adj[v].push_back({u, wt}); 
-//         }
+            adj[u].push_back({v, wt});
+            adj[v].push_back({u, wt}); 
+        }
 
-//         vector<int> result(n, 1e5); 
+        vector<int> result(n, 1e5); 
 
-//         for(int i=0; i<n; i++)
-//         {
-//             dijkstra(adj, i, matrix[i], n);
-//         }
+        for(int i=0; i<n; i++)
+        {
+            dijkstra(adj, i, matrix[i], n);
+        }
 
-//         return findRequiredCity(matrix, n, distanceThreshold);
-//     }
+        return findRequiredCity(matrix, n, distanceThreshold);
+    }
 
 
 // FLOYD WARSHAL 
@@ -349,61 +349,61 @@ public:
 
 
 // NOW TRYING OUT FLYOD WARSHAL ALGORITHM 
-  int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
- {
-    // dijkstra has to be applied on every node to be able to find out the min distance that every node takes from the other nodes 
+//   int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
+//  {
+//     // dijkstra has to be applied on every node to be able to find out the min distance that every node takes from the other nodes 
 
-    // will have to be stored in a 2d array for it 
-    // we have to find out min cities within threshold distance 
-    // min cities means the least num of cities within the threshold dist
+//     // will have to be stored in a 2d array for it 
+//     // we have to find out min cities within threshold distance 
+//     // min cities means the least num of cities within the threshold dist
 
-    vector<vector<int>>dis(n, vector<int>(n, 1e5));
-    for(auto &edge : edges)
-    {
-        int u = edge[0];
-        int v = edge[1];
-        int wt = edge[2];
+//     vector<vector<int>>dis(n, vector<int>(n, 1e5));
+//     for(auto &edge : edges)
+//     {
+//         int u = edge[0];
+//         int v = edge[1];
+//         int wt = edge[2];
 
-        dis[u][v] = wt;
-        dis[v][u] = wt;
-    }
+//         dis[u][v] = wt;
+//         dis[v][u] = wt;
+//     }
 
-// Initialize distances
-        for (int i = 0; i < n; i++) {
-            dis[i][i] = 0;
-        }
+// // Initialize distances
+//         for (int i = 0; i < n; i++) {
+//             dis[i][i] = 0;
+//         }
 
-    //applying floyd warshal 
-    for(int via=0; via<n; via++)
-    {
-        for(int i=0; i<n; i++)
-        {
-            for(int j=0; j<n; j++)
-            {
-                if(dis[i][via]!=1e5 && dis[via][j]!=1e5)
-                    dis[i][j] = min(dis[i][j], dis[i][via]+dis[via][j]);
-            }
-        }
-    }
+//     //applying floyd warshal 
+//     for(int via=0; via<n; via++)
+//     {
+//         for(int i=0; i<n; i++)
+//         {
+//             for(int j=0; j<n; j++)
+//             {
+//                 if(dis[i][via]!=1e5 && dis[via][j]!=1e5)
+//                     dis[i][j] = min(dis[i][j], dis[i][via]+dis[via][j]);
+//             }
+//         }
+//     }
 
-    int city = 0; 
-    int mincount = INT_MAX; 
-    for(int i=0; i<n; i++)
-    {
-        int count = 0; 
-        for(int j=0; j<n; j++)
-        {
-            if(dis[i][j] <= distanceThreshold) count++;
-        }
+//     int city = 0; 
+//     int mincount = INT_MAX; 
+//     for(int i=0; i<n; i++)
+//     {
+//         int count = 0; 
+//         for(int j=0; j<n; j++)
+//         {
+//             if(dis[i][j] <= distanceThreshold) count++;
+//         }
 
-        if(count <= mincount)
-        {
-            mincount = count; 
-            city = i; 
-        }
-    }
+//         if(count <= mincount)
+//         {
+//             mincount = count; 
+//             city = i; 
+//         }
+//     }
 
-    return city;
- }
+//     return city;
+//  }
 
 };
