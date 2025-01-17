@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0066-plus-one) |
 | [0078-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0078-subsets) |
+| [0085-maximal-rectangle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0120-triangle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
+| [0085-maximal-rectangle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
@@ -262,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
@@ -374,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0943-sum-of-subarray-minimums](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
