@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Depth-First Search
@@ -311,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Hash Table
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0621-task-scheduler](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0744-network-delay-time) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1753-path-with-minimum-effort](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1753-path-with-minimum-effort) |
 | [1917-maximum-average-pass-ratio](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
@@ -449,4 +452,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0023-merge-k-sorted-lists) |
+## Design
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
