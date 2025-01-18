@@ -8,53 +8,50 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-class Compare{
-    public : 
-    bool operator()(ListNode* a, ListNode* b)
-    {
-        return a->val > b->val; 
-    }
-};
-
 class Solution {
 public:
-    // bool compar(ListNode* a, ListNode* b)
-    // {
-    //     return a->val < b->val; 
-    // }
+    ListNode* merge(ListNode* l1, ListNode* l2)
+    {
+        ListNode* dummy = new ListNode(0);
+        ListNode* curr = dummy; 
+
+        while(l1!=NULL && l2!=NULL)
+        {
+            if(l1->val <= l2->val)
+            {
+                curr->next = l1;
+                l1 = l1->next; 
+            }
+            else
+            {
+                curr->next = l2; 
+                l2 = l2->next;
+            }
+            curr = curr->next;
+        }
+        curr->next = l1 ? l1 : l2; 
+
+        return dummy->next;
+    }
+
+    ListNode* mergeSort(vector<ListNode*>& lists, int start, int end)
+    {
+        if(lists.empty()) return NULL; 
+        if(start == end) return lists[start];
+
+       
+            int mid = start + (end-start)/2; 
+
+            ListNode* left = mergeSort(lists, start, mid);
+            ListNode* right = mergeSort(lists, mid+1, end);
+
+        
+        return merge(left, right);
+    }
 
     ListNode* mergeKLists(vector<ListNode*>& lists) 
     {
-        priority_queue<ListNode*, vector<ListNode*>, Compare >pq; 
-        int count = 0; 
-
-        for(int i=0; i<lists.size(); i++)
-        {
-            // ListNode head = lists[i][0];
-            ListNode* temp = lists[i]; 
-            while(temp != NULL)
-            {
-                count++;
-                pq.push(temp);
-                temp = temp->next; 
-            }
-        }
-
-        ListNode* dummyHead = new ListNode(-1);
-        ListNode* temp = dummyHead; 
-       
-        while(count--)
-        {
-            // ListNode* newNode = pq.top();
-            // pq.pop();
-
-            temp->next = pq.top();
-            pq.pop(); 
-            temp = temp->next; 
-        }
-
-        temp->next = NULL; 
-        return dummyHead->next; 
+        if(lists.empty()) return NULL;
+        return mergeSort(lists, 0, lists.size()-1);
     }
 };
