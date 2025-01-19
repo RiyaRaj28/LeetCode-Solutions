@@ -1,42 +1,34 @@
 class Solution {
-
-    // bool checkValidParenthesis(string s, int i, int count)
-    // {
-        
-    //     if(count<0) return false;
-    //     if(i == s.size()){  //size of string is never reduced 
-    //         return (count == 0); 
-    //     }
-
-    //     if(s[i] == '(') {
-    //         return checkValidParenthesis(s, i+1, count+1);
-    //     }
-    //     else if(s[i] == ')') {
-    //         return checkValidParenthesis(s, i+1, count-1);
-    //     }
-    //     else {
-    //         return (checkValidParenthesis(s, i+1, count+1) || checkValidParenthesis(s, i+1, count-1) || 
-    //                  checkValidParenthesis(s, i+1, count));
-    //     }
-
-
-    
 public:
-    bool checkValidString(string s) {
-        //app1 : recursively 
-        // int index = 0, count = 0; 
+    // bool check(int ind, string s, int cnt)
+    // {
+    //     if(cnt < 0) return false; 
+    //     if(ind == s.size()) return cnt == 0; 
+    //     if(s[ind] == '(') return check(ind+1, s, cnt+1);
+    //     else if(s[ind] == ')') return check(ind+1, s, cnt-1);
+    //     else 
+    //     {
+    //         bool left = check(ind+1, s, cnt+1);
+    //         bool right = check(ind+1, s, cnt-1);
+    //         bool empty = check(ind+1, s, cnt);
+    //         return left | right | empty;
+    //     }
+    // }
 
-        // return checkValidParenthesis(s, index, count); 
+    // bool checkValidString(string s) 
+    // {
+    //     return check(0, s, 0);
+    // }
 
-        //greedy approach 
-        int min = 0, max = 0; 
-
+    bool checkValidString(string s) 
+    {
+        int min=0, max=0; 
         for(int i=0; i<s.size(); i++)
         {
             if(s[i] == '(')
             {
-                min += 1;
-                max += 1;
+                min += 1; 
+                max += 1; 
             }
             else if(s[i] == ')')
             {
@@ -52,7 +44,6 @@ public:
             if(min<0) min = 0; 
             if(max<0) return false; 
         }
-
-        return (min==0); 
+        return min == 0; 
     }
 };
