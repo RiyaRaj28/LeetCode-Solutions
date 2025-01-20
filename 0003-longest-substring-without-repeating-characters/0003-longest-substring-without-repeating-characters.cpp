@@ -32,19 +32,34 @@ public:
         // }
         // return maxlen; 
         
-        for(int r=0; r<n; r++)
-        {
-            if(st.find(s[r]) != st.end())
-            {
-                while(l<r && st.find(s[r])!= st.end())
-                {
-                    st.erase(s[l]);
-                    l++; 
-                }
-            }
+        // for(int r=0; r<n; r++)
+        // {
+        //     if(st.find(s[r]) != st.end())
+        //     {
+        //         while(l<r && st.find(s[r])!= st.end())
+        //         {
+        //             st.erase(s[l]);
+        //             l++; 
+        //         }
+        //     }
             
-            st.insert(s[r]);
-            maxlen = max(maxlen, r-l+1); 
+        //     st.insert(s[r]);
+        //     maxlen = max(maxlen, r-l+1); 
+        // }
+        // return maxlen; 
+
+        //optimised hashed approach 
+        vector<int>hash(256, -1); 
+        while(r<n)
+        {
+            if(hash[s[r]] != -1)
+            {
+                l = max(hash[s[r]]+1, l);
+            }
+
+            hash[s[r]] = r;
+            maxlen = max(maxlen, r-l+1);
+            r++;
         }
         return maxlen; 
     }
