@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1396-count-servers-that-communicate](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1524-string-matching-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1396-count-servers-that-communicate](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1753-path-with-minimum-effort](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1876-map-of-highest-peak) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1396-count-servers-that-communicate](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1753-path-with-minimum-effort](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1753-path-with-minimum-effort) |
@@ -330,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1073-number-of-enclaves) |
 | [1300-critical-connections-in-a-network](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1300-critical-connections-in-a-network) |
+| [1396-count-servers-that-communicate](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1753-path-with-minimum-effort) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -378,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1073-number-of-enclaves) |
+| [1396-count-servers-that-communicate](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1753-path-with-minimum-effort) |
 ## Simulation
@@ -426,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0621-task-scheduler) |
+| [1396-count-servers-that-communicate](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [2300-construct-string-with-repeat-limit](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Monotonic Stack
