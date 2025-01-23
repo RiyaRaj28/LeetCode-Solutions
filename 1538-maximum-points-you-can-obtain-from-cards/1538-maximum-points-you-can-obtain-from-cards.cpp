@@ -50,25 +50,46 @@ public:
     //     return maxsum; 
     // }
 
-    int maxScore(vector<int>& cardPoints, int k) 
+    // int maxScore(vector<int>& cardPoints, int k) 
+    // {
+    //     int n = cardPoints.size(); 
+
+    //     int l = 0, r = n-1; 
+    //     int leftsum = 0, rightsum = 0; 
+    //     for(int i=0; i<k; i++) leftsum += cardPoints[i]; 
+    //     int maxsum = leftsum; 
+
+    //     int rightind = n-1; 
+    //     for(int i=k-1; i>=0; i--)
+    //     {
+    //         leftsum -= cardPoints[i]; 
+    //         rightsum += cardPoints[rightind]; 
+
+    //         rightind -= 1; 
+    //         maxsum = max(maxsum, leftsum+rightsum);
+    //     }
+
+    //     return maxsum; 
+    // }
+
+        int maxScore(vector<int>& cardPoints, int k) 
     {
         int n = cardPoints.size(); 
 
         int l = 0, r = n-1; 
-        int leftsum = 0, rightsum = 0; 
-        for(int i=0; i<k; i++) leftsum += cardPoints[i]; 
-        int maxsum = leftsum; 
+        int sum = 0, rightsum = 0; 
+        for(int i=0; i<k; i++) sum += cardPoints[i]; 
+        int maxsum = sum; 
 
         int rightind = n-1; 
-        for(int i=k-1; i>=0; i--)
+        for(int i=0; i<k; i++)
         {
-            leftsum -= cardPoints[i]; 
-            rightsum += cardPoints[rightind]; 
-
-            rightind -= 1; 
-            maxsum = max(maxsum, leftsum+rightsum);
+            sum = sum - cardPoints[k-1-i] + cardPoints[n-1-i];
+            maxsum = max(maxsum, sum);
+            
         }
 
         return maxsum; 
     }
+
 };
