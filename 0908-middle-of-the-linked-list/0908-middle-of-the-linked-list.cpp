@@ -41,9 +41,9 @@ public:
             // {
             //     break;
             // }
-            
+             mid_count -= 1; 
             temp = temp->next; 
-            mid_count -= 1; 
+           
         }
 
         return temp; 
