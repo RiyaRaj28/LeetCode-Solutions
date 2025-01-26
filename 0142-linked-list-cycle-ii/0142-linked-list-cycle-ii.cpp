@@ -14,10 +14,15 @@ public:
         ListNode *temp = head; 
         while(temp)
         {
-            if(mpp.count(temp)!=0)
-            {
-                return temp;
-            }
+            // if(mpp.count(temp)!=0)
+            // {
+            //     return temp;
+            // }
+
+            // mpp[temp] = 1; 
+            // temp = temp->next; 
+
+            if(mpp.find(temp) != mpp.end()) return temp; 
 
             mpp[temp] = 1; 
             temp = temp->next; 
