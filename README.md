@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3291-find-if-array-can-be-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3651-transformed-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3651-transformed-array) |
+| [3731-sum-of-variable-length-subarrays](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3731-sum-of-variable-length-subarrays) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -508,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2145-grid-game](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2145-grid-game) |
+| [3731-sum-of-variable-length-subarrays](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3731-sum-of-variable-length-subarrays) |
 ## String Matching
 |  |
 | ------- |
