@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1073-number-of-enclaves](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1073-number-of-enclaves) |
@@ -386,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -458,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0621-task-scheduler) |
+| [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1396-count-servers-that-communicate](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [2300-construct-string-with-repeat-limit](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -562,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0966-binary-subarrays-with-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
