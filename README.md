@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3651-transformed-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3651-transformed-array) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3731-sum-of-variable-length-subarrays](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3731-sum-of-variable-length-subarrays) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Matrix
 |  |
 | ------- |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2509-minimize-xor](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2509-minimize-xor) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Sorting
 |  |
 | ------- |
@@ -415,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-first-completely-painted-row-or-column](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Union Find
 |  |
 | ------- |
@@ -540,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2145-grid-game](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2145-grid-game) |
 | [3731-sum-of-variable-length-subarrays](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3731-sum-of-variable-length-subarrays) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## String Matching
 |  |
 | ------- |
