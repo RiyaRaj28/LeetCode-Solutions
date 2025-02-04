@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
+| [2106-find-greatest-common-divisor-of-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2145-grid-game](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2145-grid-game) |
 | [2232-adding-spaces-to-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0412-fizz-buzz](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0412-fizz-buzz) |
 | [0507-perfect-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0507-perfect-number) |
+| [2106-find-greatest-common-divisor-of-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 ## Memoization
 |  |
@@ -495,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0258-add-digits) |
+| [2106-find-greatest-common-divisor-of-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 ## Graph
 |  |
 | ------- |
