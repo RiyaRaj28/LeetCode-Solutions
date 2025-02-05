@@ -6,13 +6,13 @@ public:
         if(s1 == s2) return true; 
         int n1 = s1.length(), n2 = s2.length(); 
 
-        int i1 = 0, i2 = 0; 
+        int i1 = 0; 
         int ind1 = -1, ind2 = -1; 
         vector<int>hash(n1, 1); 
 
-        while(i1<n1 && i2<n2)
+        while(i1<n1)
         {
-            if(s1[i1] != s2[i2])
+            if(s1[i1] != s2[i1])
             {
                 diff += 1; 
                 if(diff>2) return false; 
@@ -20,7 +20,7 @@ public:
                 if(ind1 == -1) ind1 = i1; 
                 else ind2 = i1; 
             }
-            i1++, i2++;
+            i1++;
         }
 
         if(diff == 2)
