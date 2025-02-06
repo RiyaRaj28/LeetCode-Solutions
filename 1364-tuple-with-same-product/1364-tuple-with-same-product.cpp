@@ -32,8 +32,8 @@ public:
 
 
         // map<int, set<int>>mpp; 
-        int n = nums.size();
-        int count = 0; 
+        // int n = nums.size();
+        // int count = 0; 
         // for(int i=0; i<n; i++)
         // {
         //     for(int j=0; j<n; j++)
@@ -55,19 +55,41 @@ public:
 
         // return count;
 
-        map<int, int>mpp; 
-        for(int i=0; i<n; i++)
-        {
-            for(int j=i+1; j<n; j++)
-            {
-                int prod = nums[i]*nums[j]; 
-                mpp[prod]++;  
+        // map<int, int>mpp; 
+        // for(int i=0; i<n; i++)
+        // {
+        //     for(int j=i+1; j<n; j++)
+        //     {
+        //         int prod = nums[i]*nums[j]; 
+        //         mpp[prod]++;  
 
-                if(mpp[prod]>1) count += (mpp[prod]-1)*8; 
+        //         if(mpp[prod]>1) count += (mpp[prod]-1)*8; 
                 
+        //     }
+        // }
+        // return count; 
+
+        std::map<int, std::set<std::pair<int, int>>> mpp;  // Map product -> set of index pairs
+        int n = nums.size();
+        int count = 0; 
+
+        // Step 1: Generate all pairs and store them in the map
+        for(int i = 0; i < n; i++) {
+            for(int j = i + 1; j < n; j++) { // Avoid duplicate pairs
+                int prod = nums[i] * nums[j]; 
+                mpp[prod].insert({i, j});  // Insert the index pair
             }
         }
-        return count; 
+
+        // Step 2: Count valid tuples from the stored pairs
+        for(auto& it : mpp) {
+            int size = it.second.size();
+            if(size > 1) {  
+                count += (size * (size - 1) / 2) * 8;  // Compute the number of valid tuples
+            }
+        }
+
+        return count;
         
     }
 };
