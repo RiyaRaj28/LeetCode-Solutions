@@ -14,42 +14,59 @@ public:
         // if it is a '+' before a '@' then ignore till '@' 
 
         // we need to know if '@' appeared or not 
-        set<string>st; 
+        unordered_set<string>st; 
 
-        int n = emails.size(); 
+        // int n = emails.size(); 
 
-        for(int i=0; i<n; i++)
-        {
-            string s = emails[i]; 
-            int len = s.length(); 
+        // for(int i=0; i<n; i++)
+        // {
+        //     string s = emails[i]; 
+        //     int len = s.length(); 
 
-            string revstr = ""; 
+        //     string revstr = ""; 
 
-            for(int i=len-1; i>=0; i--)
-            {
-                char c = s[i]; 
-                if(c == '@') break; 
-                revstr += c; 
-            }
+        //     for(int i=len-1; i>=0; i--)
+        //     {
+        //         char c = s[i]; 
+        //         if(c == '@') break; 
+        //         revstr += c; 
+        //     }
 
-            reverse(revstr.begin(), revstr.end()); 
+        //     reverse(revstr.begin(), revstr.end()); 
 
-            string str = ""; 
-            for(int i=0; i<len; i++)
-            {
-                char c = s[i]; 
+        //     string str = ""; 
+        //     for(int i=0; i<len; i++)
+        //     {
+        //         char c = s[i]; 
                 
-                if(c == '@') break; 
-                if(c == '.') continue; 
-                if(c == '+') break; 
+        //         if(c == '@') break; 
+        //         if(c == '.') continue; 
+        //         if(c == '+') break; 
 
-                str += c; 
+        //         str += c; 
+        //     }
+
+        //     string ans = ""; 
+        //     ans = str + '@' + revstr; 
+
+        //     st.insert(ans);
+        // }
+
+        // return st.size(); 
+
+        for(string s : emails)
+        {
+            string ans = ""; 
+            for(char c : s)
+            {
+                if(c == '+' || c == '@') break; 
+                if(c == '.') continue; 
+
+                ans += c; 
             }
 
-            string ans = ""; 
-            ans = str + '@' + revstr; 
-
-            st.insert(ans);
+            ans += s.substr(s.find('@')); 
+            st.insert(ans); 
         }
 
         return st.size(); 
