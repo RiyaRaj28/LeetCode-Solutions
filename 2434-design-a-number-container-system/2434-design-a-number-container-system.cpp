@@ -1,27 +1,64 @@
 class NumberContainers {
 public:
+    map<int, int>indtonum;
+    map<int, set<int>>numtoind; 
+
     NumberContainers() {
         
     }
-        map<int,set<int>>mp;
-        map<int,int>id;
-         void change(int index, int number) {
-            if(!id.count(index))
-                id[index]=number,
-                mp[id[index]].insert(index);
+    
+    void change(int index, int number) 
+    {
 
-            else
-                mp[id[index]].erase(index),
-                id[index]=number,
-                mp[id[index]].insert(index); 
+        if(!indtonum.count(index))
+        {
+            indtonum[index] = number; 
+            numtoind[number].insert(index); 
         }
+        else
+        {
+            // int num = indtonum[index]; 
+
+            // //now remove this index in the map from that num 
+            // auto it = numtoind.find(num); 
+            // (it->second).erase(index); 
+
+            // if((it->second).empty()) numtoind.erase(it); 
+
+            // indtonum[index] = number; 
+            // numtoind[number].insert(index);            
+
+            numtoind[indtonum[index]].erase(index); 
+            indtonum[index] = number; 
+            numtoind[indtonum[index]].insert(index); 
+        }
+
+        // if(indtonum.find(index) != indtonum.end())
+        // {
+        //     //there is an elemtn at that index already 
+        //     int num = indtonum[index]; 
+
+        //     //now remove this index in the map from that num 
+        //     auto it = numtoind.find(num); 
+        //     (it->second).erase(index); 
+
+        //     if((it->second).empty()) numtoind.erase(it); 
+
+        //     indtonum[index] = number; 
+        //     numtoind[number].insert(index); 
+        // }
+        // else 
+        // {
+        //     indtonum[index] = number; 
+        //     numtoind[number].insert(index); 
+        // }
+    }
+    
+    int find(int number) {
         
-         int find(int number) {
-            if(!mp[number].size())
-                return -1;
-            
-            return *mp[number].begin();
-        }
+        if(numtoind[number].size() == 0) return -1; 
+        return *numtoind[number].begin(); 
+    }
 };
 
 /**
