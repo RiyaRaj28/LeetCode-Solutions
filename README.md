@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0952-word-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0952-word-subsets) |
+| [0965-unique-email-addresses](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0965-unique-email-addresses) |
 | [0966-binary-subarrays-with-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0952-word-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0952-word-subsets) |
+| [0965-unique-email-addresses](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0965-unique-email-addresses) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
@@ -417,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0952-word-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0952-word-subsets) |
+| [0965-unique-email-addresses](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0965-unique-email-addresses) |
 | [0966-binary-subarrays-with-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
