@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0965-unique-email-addresses](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0965-unique-email-addresses) |
 | [0966-binary-subarrays-with-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
+| [0974-reorder-data-in-log-files](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0974-reorder-data-in-log-files) |
 | [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
+| [0974-reorder-data-in-log-files](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0974-reorder-data-in-log-files) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0952-word-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0952-word-subsets) |
 | [0965-unique-email-addresses](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0965-unique-email-addresses) |
+| [0974-reorder-data-in-log-files](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0974-reorder-data-in-log-files) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
