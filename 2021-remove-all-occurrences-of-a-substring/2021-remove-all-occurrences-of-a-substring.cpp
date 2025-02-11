@@ -40,27 +40,47 @@ public:
 
         // return s;   
 
-        string res = ""; 
-        int n = s.length(); 
-        int m = part.length(); 
+        // CORRECT APPROACH 1 
 
-        for(int i=0; i<n; i++)
-        {
-            res += s[i]; 
+        // string res = ""; 
+        // int n = s.length(); 
+        // int m = part.length(); 
 
-            if(res.length() >= part.length())
+        // for(int i=0; i<n; i++)
+        // {
+        //     res += s[i]; 
+
+        //     if(res.length() >= part.length())
+        //     {
+        //         if(s[i] == part[m-1])
+        //         {
+        //             string temp = res.substr(res.length() - m);
+
+        //             if(temp == part) res.erase(res.length() - m);  
+        //         }
+        //     }
+        // }
+
+        // return res; 
+
+        // BRUTE FORCE APPROACH USING STL 
+
+            int n = s.length(); 
+            int m = part.length(); 
+
+            int ind = 0; 
+            while(true)
             {
-                if(s[i] == part[m-1])
-                {
-                    string temp = res.substr(res.length() - m);
+                int ind = s.find(part); 
 
-                    if(temp == part) res.erase(res.length() - m);  
+                if(ind == string::npos) break; 
+                else
+                {
+                    s.erase(ind, part.length()); 
                 }
             }
-        }
 
-        return res; 
-
+            return s; 
 
 
 
