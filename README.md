@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2792-neighboring-bitwise-xor](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2792-neighboring-bitwise-xor) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3291-find-if-array-can-be-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -484,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1184-car-pooling) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2232-adding-spaces-to-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3651-transformed-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3651-transformed-array) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2300-construct-string-with-repeat-limit](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2434-design-a-number-container-system](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Counting
 |  |
 | ------- |
