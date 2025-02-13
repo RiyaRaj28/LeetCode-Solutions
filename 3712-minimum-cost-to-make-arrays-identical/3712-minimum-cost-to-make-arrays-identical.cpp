@@ -3,20 +3,23 @@ public:
     const int MOD = 1e9+7; 
     bool isSame(vector<int>&arr, vector<int>&brr)
     {   
-        int i = arr.size()-1; 
-        int check = true; 
-        while(i>=0)
-            {
-                if(arr[i] == brr[i]) continue;
-                else 
-                {
-                    check = false; 
-                    break;
-                }
-                i--; 
-            }
-        if(check == true) return true;
-        return false;
+        // int i = arr.size()-1; 
+        // int check = true; 
+        // while(i>=0)
+        //     {
+        //         if(arr[i] == brr[i]) continue;
+        //         else 
+        //         {
+        //             check = false; 
+        //             break;
+        //         }
+        //         i--; 
+        //     }
+        // if(check == true) return true;
+        // return false;
+
+        if(arr == brr) return true; 
+        return false; 
     }
 
     void Sort(vector<int>arr, vector<int>&ans)
