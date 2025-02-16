@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1753-path-with-minimum-effort) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1876-map-of-highest-peak](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0494-target-sum) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## String
 |  |
