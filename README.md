@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 ## Memoization
 |  |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0494-target-sum) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## String
 |  |
 | ------- |
