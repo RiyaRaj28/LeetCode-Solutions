@@ -307,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0494-target-sum) |
+| [1160-letter-tile-possibilities](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## String
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0965-unique-email-addresses](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0965-unique-email-addresses) |
 | [0974-reorder-data-in-log-files](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0974-reorder-data-in-log-files) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
+| [1160-letter-tile-possibilities](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1160-letter-tile-possibilities](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1364-tuple-with-same-product) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -549,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0621-task-scheduler) |
 | [0829-subdomain-visit-count](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0829-subdomain-visit-count) |
 | [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
+| [1160-letter-tile-possibilities](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
