@@ -30,125 +30,124 @@ public:
         return city; 
     }
 
-    vector<int> dijkstra(unordered_map<int, vector<p>>adj, int source, vector<int>&result, int n)
+//     vector<int> dijkstra(unordered_map<int, vector<p>>adj, int source, vector<int>&result, int n)
+//     {
+//         priority_queue<p, vector<p>, greater<p>> pq; 
+//         pq.push({0, source});
+//         fill(result.begin(), result.end(), 1e5);
+//         result[source] = 0; 
+
+//         while(!pq.empty())
+//         {
+//             int node = pq.top().second; 
+//             int d = pq.top().first; 
+//             pq.pop();
+
+//             for(auto &it : adj[node])
+//             {
+//                 int anode = it.first;
+//                 int ad = it.second;
+
+//                 if(d + ad < result[anode])
+//                 {
+//                     result[anode] = d + ad; 
+//                     pq.push({d + ad, anode}); 
+//                 }
+//             }
+//         }
+
+//         return result; 
+//     }
+
+// //DIJKSTRA 
+//     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
+//     {
+//         vector<vector<int>> matrix(n, vector<int>(n, 1e5)); 
+//         for(int i=0; i<n; i++) matrix[i][i] = 0; 
+
+//         unordered_map<int, vector<p>>adj;
+//         for(auto &it : edges)
+//         {
+//             int u = it[0];
+//             int v = it[1];
+//             int wt = it[2];
+
+//             adj[u].push_back({v, wt});
+//             adj[v].push_back({u, wt}); 
+//         }
+
+//         vector<int> result(n, 1e5); 
+
+//         for(int i=0; i<n; i++)
+//         {
+//             dijkstra(adj, i, matrix[i], n);
+//         }
+
+//         return findRequiredCity(matrix, n, distanceThreshold);
+//     }
+
+
+// FLOYD WARSHAL 
+    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
     {
-        priority_queue<p, vector<p>, greater<p>> pq; 
-        pq.push({0, source});
-        fill(result.begin(), result.end(), 1e5);
-        result[source] = 0; 
+        vector<vector<int>> grid(n, vector<int>(n, 1e5));
+        for(int i=0; i<n; i++) grid[i][i] = 0; 
 
-        while(!pq.empty())
+        for(auto &it : edges)
         {
-            int node = pq.top().second; 
-            int d = pq.top().first; 
-            pq.pop();
+            int i = it[0];
+            int j = it[1];
+            int d = it[2];
 
-            for(auto &it : adj[node])
+            grid[i][j] = d; 
+            grid[j][i] = d; 
+        }
+
+        //now we have stored the distance of each vertex from each vertex in a grid.
+        // now we apply floyd warshal to minimise each distance 
+
+        for(int via = 0; via < n; via++)
+        {
+            for(int i=0; i<n; i++)
             {
-                int anode = it.first;
-                int ad = it.second;
-
-                if(d + ad < result[anode])
+                for(int j=0; j<n; j++)
                 {
-                    result[anode] = d + ad; 
-                    pq.push({d + ad, anode}); 
+                    grid[i][j] = min(grid[i][j], grid[via][j]+grid[i][via]);
                 }
             }
         }
 
-        return result; 
+                return findRequiredCity(grid, n, distanceThreshold);
 
+        //got all the min distances. Now we need to store the number of places it can go to staying in the threshold   limit
 
+        // vector<int> cities(n, 0);
 
-    }
+        // for(int i=0; i<n; i++)
+        // {
+        //     for(int j=0; j<n; j++)
+        //     {
+        //         if(grid[i][j] <= distanceThreshold) cities[i]++;
+        //     }
+        // } 
 
-//DIJKSTRA 
-    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
-    {
-        vector<vector<int>> matrix(n, vector<int>(n, 1e5)); 
-        for(int i=0; i<n; i++) matrix[i][i] = 0; 
+        // priority_queue<int> greatestCity_pq; 
 
-        unordered_map<int, vector<p>>adj;
-        for(auto &it : edges)
-        {
-            int u = it[0];
-            int v = it[1];
-            int wt = it[2];
-
-            adj[u].push_back({v, wt});
-            adj[v].push_back({u, wt}); 
-        }
-
-        vector<int> result(n, 1e5); 
-
-        for(int i=0; i<n; i++)
-        {
-            dijkstra(adj, i, matrix[i], n);
-        }
-
-        return findRequiredCity(matrix, n, distanceThreshold);
-    }
-
-
-// FLOYD WARSHAL 
-    // int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) 
-    // {
-    //     vector<vector<int>> grid(n, vector<int>(n, 1e5));
-    //     for(int i=0; i<n; i++) grid[i][i] = 0; 
-
-    //     for(auto &it : edges)
-    //     {
-    //         int i = it[0];
-    //         int j = it[1];
-    //         int d = it[2];
-
-    //         grid[i][j] = d; 
-    //         grid[j][i] = d; 
-    //     }
-
-    //     //now we have stored the distance of each vertex from each vertex in a grid.
-    //     // now we apply floyd warshal to minimise each distance 
-
-    //     for(int via = 0; via < n; via++)
-    //     {
-    //         for(int i=0; i<n; i++)
-    //         {
-    //             for(int j=0; j<n; j++)
-    //             {
-    //                 grid[i][j] = min(grid[i][j], grid[via][j]+grid[i][via]);
-    //             }
-    //         }
-    //     }
-
-    //     //got all the min distances. Now we need to store the nnumber of places it can go to staying in the threshold   limit
-
-    //     vector<int> cities(n, 0);
-
-    //     for(int i=0; i<n; i++)
-    //     {
-    //         for(int j=0; j<n; j++)
-    //         {
-    //             if(grid[i][j] <= distanceThreshold) cities[i]++;
-    //         }
-    //     } 
-
-    //     priority_queue<int> greatestCity_pq; 
-
-    //     //now find the minimum number of cities can be travelled tp
-    //     int minCities = n;
-    //     for(int i=0; i<n; i++)
-    //     {
-    //         if(cities[i] < minCities) minCities = cities[i];
-    //     }
+        // //now find the minimum number of cities can be travelled tp
+        // int minCities = n;
+        // for(int i=0; i<n; i++)
+        // {
+        //     if(cities[i] < minCities) minCities = cities[i];
+        // }
         
-    //     for(int i=0; i<n; i++)
-    //     {
-    //         if(cities[i] == minCities)
-    //             greatestCity_pq.push(i);
-    //     }
+        // for(int i=0; i<n; i++)
+        // {
+        //     if(cities[i] == minCities)
+        //         greatestCity_pq.push(i);
+        // }
 
-    //     return greatestCity_pq.top();
-    // }
+        // return greatestCity_pq.top();
+    }
 
     // BELLMAN FORD ALGORITHM 
     // relax eaxh vertex v-1 times for each source 
