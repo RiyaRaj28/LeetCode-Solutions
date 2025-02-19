@@ -7,11 +7,21 @@ public:
         {
             if(nums[r] == 0) zeros++; 
 
-            if(zeros > k)
+            // if(zeros > k)
+            // {
+            //     while(nums[l] != 0) l++; 
+            //     l++; 
+            //     zeros -= 1; 
+            // }
+
+            while(zeros > k)
             {
-                while(nums[l] != 0) l++; 
+                if(nums[l] == 0)
+                {
+                    zeros--; 
+                    
+                }
                 l++; 
-                zeros -= 1; 
             }
 
             maxlen = max(maxlen, r-l+1); 
