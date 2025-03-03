@@ -19,26 +19,38 @@ public:
 
         // return ans; 
 
-        int lessthan = 0, equalto = 0, greaterthan = 0; 
-        for(int i=0; i<n; i++)
-        {
-            if(nums[i] < pivot) lessthan++; 
-            else if(nums[i] > pivot) greaterthan++; 
-            else equalto++; 
-        }
+        // int lessthan = 0, equalto = 0, greaterthan = 0; 
+        // for(int i=0; i<n; i++)
+        // {
+        //     if(nums[i] < pivot) lessthan++; 
+        //     else if(nums[i] > pivot) greaterthan++; 
+        //     else equalto++; 
+        // }
 
-        int less = 0, equal = lessthan, greater = lessthan + equalto; 
+        // int less = 0, equal = lessthan, greater = lessthan + equalto; 
+        // vector<int>ans(n); 
+        // int i = 0; 
+
+        // while(i<n)
+        // {
+        //     if(nums[i] < pivot) ans[less++] = nums[i]; 
+        //     else if(nums[i] > pivot) ans[greater++] = nums[i]; 
+        //     else ans[equal++] = nums[i];  
+
+        //     i++; 
+        // }
+
+        // return ans; 
+
+        int less = 0, greater = n-1; 
         vector<int>ans(n); 
-        int i = 0; 
-
-        while(i<n)
+        for(int i=0, j=n-1; i<n; i++, j--)
         {
             if(nums[i] < pivot) ans[less++] = nums[i]; 
-            else if(nums[i] > pivot) ans[greater++] = nums[i]; 
-            else ans[equal++] = nums[i];  
-
-            i++; 
+            if (nums[j] > pivot) ans[greater--] = nums[j]; 
         }
+
+        while(less <= greater) ans[less++] = pivot; 
 
         return ans; 
         
