@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3429-special-array-i) |
+| [3430-count-days-without-meetings](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3430-count-days-without-meetings) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3483-alternating-groups-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3483-alternating-groups-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3291-find-if-array-can-be-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
+| [3430-count-days-without-meetings](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3430-count-days-without-meetings) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3712-minimum-cost-to-make-arrays-identical](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3712-minimum-cost-to-make-arrays-identical) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
