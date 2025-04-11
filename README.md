@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3795-zero-array-transformation-iv](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3795-zero-array-transformation-iv) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2998-count-symmetric-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2998-count-symmetric-integers) |
 | [3227-find-missing-and-repeated-values](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 ## Memoization
 |  |
@@ -406,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3447-clear-digits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Bit Manipulation
