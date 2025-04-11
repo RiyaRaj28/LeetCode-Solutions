@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3748-sort-matrix-by-diagonals](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3748-sort-matrix-by-diagonals) |
 | [3750-closest-equal-element-queries](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3750-closest-equal-element-queries) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
+| [3759-choose-k-elements-with-maximum-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3795-zero-array-transformation-iv](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3795-zero-array-transformation-iv) |
 ## Dynamic Programming
 |  |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3712-minimum-cost-to-make-arrays-identical](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3712-minimum-cost-to-make-arrays-identical) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3748-sort-matrix-by-diagonals](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3748-sort-matrix-by-diagonals) |
+| [3759-choose-k-elements-with-maximum-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -634,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2681-put-marbles-in-bags) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3759-choose-k-elements-with-maximum-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## Counting
 |  |
 | ------- |
