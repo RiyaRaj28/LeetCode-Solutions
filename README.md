@@ -416,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3447-clear-digits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3709-find-special-substring-of-length-k](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3709-find-special-substring-of-length-k) |
 | [3786-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3786-longest-palindromic-subsequence-after-at-most-k-operations) |
 | [3797-design-spreadsheet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3797-design-spreadsheet) |
 ## Bit Manipulation
