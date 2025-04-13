@@ -229,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0507-perfect-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0507-perfect-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2050-count-good-numbers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2448-count-number-of-bad-pairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
@@ -621,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
