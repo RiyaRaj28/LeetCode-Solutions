@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1524-string-matching-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1656-count-good-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1656-count-good-triplets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1753-path-with-minimum-effort) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -803,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1656-count-good-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1656-count-good-triplets) |
 | [2998-count-symmetric-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2998-count-symmetric-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
