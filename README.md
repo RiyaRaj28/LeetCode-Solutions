@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2665-minimum-time-to-repair-cars](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
@@ -468,10 +470,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 ## Segment Tree
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 ## Stack
 |  |
 | ------- |
@@ -756,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 ## Quickselect
 |  |
 | ------- |
@@ -765,6 +770,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0023-merge-k-sorted-lists) |
+| [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 ## Design
 |  |
 | ------- |
@@ -829,5 +835,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2434-design-a-number-container-system) |
 <!---LeetCode Topics End-->
