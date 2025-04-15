@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3795-zero-array-transformation-iv](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3795-zero-array-transformation-iv) |
 | [3797-design-spreadsheet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3797-design-spreadsheet) |
+| [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 | [3824-number-of-unique-xor-triplets-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3824-number-of-unique-xor-triplets-i) |
 ## Dynamic Programming
 |  |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
+| [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 | [3824-number-of-unique-xor-triplets-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3824-number-of-unique-xor-triplets-i) |
 ## Memoization
 |  |
@@ -440,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2792-neighboring-bitwise-xor](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2792-neighboring-bitwise-xor) |
 | [3291-find-if-array-can-be-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 | [3824-number-of-unique-xor-triplets-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3824-number-of-unique-xor-triplets-i) |
 ## Binary Search
 |  |
@@ -811,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2998-count-symmetric-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2998-count-symmetric-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
+| [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 ## Randomized
 |  |
 | ------- |
