@@ -389,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0038-count-and-say](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0038-count-and-say) |
 | [0072-edit-distance](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0115-distinct-subsequences) |
