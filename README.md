@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3712-minimum-cost-to-make-arrays-identical](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3712-minimum-cost-to-make-arrays-identical) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3731-sum-of-variable-length-subarrays](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3731-sum-of-variable-length-subarrays) |
+| [3732-calculate-score-after-performing-instructions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3732-calculate-score-after-performing-instructions) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3748-sort-matrix-by-diagonals](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3748-sort-matrix-by-diagonals) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3447-clear-digits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3709-find-special-substring-of-length-k](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3709-find-special-substring-of-length-k) |
+| [3732-calculate-score-after-performing-instructions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3732-calculate-score-after-performing-instructions) |
 | [3786-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3786-longest-palindromic-subsequence-after-at-most-k-operations) |
 | [3797-design-spreadsheet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3797-design-spreadsheet) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3813-smallest-palindromic-rearrangement-ii) |
@@ -585,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3548-find-the-count-of-good-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3705-find-the-largest-almost-missing-integer) |
+| [3732-calculate-score-after-performing-instructions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3732-calculate-score-after-performing-instructions) |
 | [3750-closest-equal-element-queries](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3750-closest-equal-element-queries) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3797-design-spreadsheet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3797-design-spreadsheet) |
@@ -624,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3651-transformed-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3651-transformed-array) |
+| [3732-calculate-score-after-performing-instructions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3732-calculate-score-after-performing-instructions) |
 ## Linked List
 |  |
 | ------- |
