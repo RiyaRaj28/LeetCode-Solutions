@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 | [3824-number-of-unique-xor-triplets-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3824-number-of-unique-xor-triplets-i) |
 | [3831-find-x-value-of-array-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3831-find-x-value-of-array-i) |
+| [3876-transform-array-to-all-equal-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3876-transform-array-to-all-equal-elements) |
 | [3885-count-special-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3885-count-special-triplets) |
 ## Dynamic Programming
 |  |
@@ -320,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
+| [3876-transform-array-to-all-equal-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3876-transform-array-to-all-equal-elements) |
 ## Sorting
 |  |
 | ------- |
