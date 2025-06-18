@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 | [3824-number-of-unique-xor-triplets-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3824-number-of-unique-xor-triplets-i) |
 | [3831-find-x-value-of-array-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3831-find-x-value-of-array-i) |
+| [3885-count-special-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3885-count-special-triplets) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -607,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3797-design-spreadsheet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3797-design-spreadsheet) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3885-count-special-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3885-count-special-triplets) |
 ## Union Find
 |  |
 | ------- |
@@ -705,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3885-count-special-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3885-count-special-triplets) |
 ## Monotonic Stack
 |  |
 | ------- |
