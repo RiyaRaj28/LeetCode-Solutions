@@ -262,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 | [3824-number-of-unique-xor-triplets-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3824-number-of-unique-xor-triplets-i) |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3709-find-special-substring-of-length-k](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3709-find-special-substring-of-length-k) |
 | [3732-calculate-score-after-performing-instructions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3732-calculate-score-after-performing-instructions) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3786-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3786-longest-palindromic-subsequence-after-at-most-k-operations) |
 | [3797-design-spreadsheet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3797-design-spreadsheet) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3813-smallest-palindromic-rearrangement-ii) |
@@ -612,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3732-calculate-score-after-performing-instructions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3732-calculate-score-after-performing-instructions) |
 | [3750-closest-equal-element-queries](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3750-closest-equal-element-queries) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3751-maximum-frequency-after-subarray-operation) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3797-design-spreadsheet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3797-design-spreadsheet) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3885-count-special-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3885-count-special-triplets) |
@@ -712,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3885-count-special-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3885-count-special-triplets) |
 ## Monotonic Stack
