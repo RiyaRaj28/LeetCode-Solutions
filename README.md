@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 | [3824-number-of-unique-xor-triplets-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3824-number-of-unique-xor-triplets-i) |
 | [3831-find-x-value-of-array-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3831-find-x-value-of-array-i) |
+| [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 | [3876-transform-array-to-all-equal-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3876-transform-array-to-all-equal-elements) |
 | [3885-count-special-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3885-count-special-triplets) |
 ## Dynamic Programming
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3820-number-of-unique-xor-triplets-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3820-number-of-unique-xor-triplets-ii) |
 | [3824-number-of-unique-xor-triplets-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3824-number-of-unique-xor-triplets-i) |
 | [3831-find-x-value-of-array-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3831-find-x-value-of-array-i) |
+| [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 ## Memoization
 |  |
 | ------- |
@@ -861,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3548-find-the-count-of-good-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 ## Enumeration
 |  |
 | ------- |
@@ -879,4 +882,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2434-design-a-number-container-system) |
+## Brainteaser
+|  |
+| ------- |
+| [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 <!---LeetCode Topics End-->
