@@ -441,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -649,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1184-car-pooling) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2232-adding-spaces-to-a-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2551-apply-operations-to-an-array) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
