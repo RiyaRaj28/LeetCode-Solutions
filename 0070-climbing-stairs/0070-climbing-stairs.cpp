@@ -1,21 +1,70 @@
 class Solution {
 public:
+    
+    // int t[46];
+
+    // int solve(int n)
+    // {
+    //     if(n<0) return 0; 
+
+    //     if(t[n] != -1) return t[n];
+
+    //     if(n == 0) return 1; 
+
+    //     int one_step = solve(n-1);
+    //     int two_step = solve(n-2);
+
+    //     return t[n] = one_step + two_step; 
+    // }
+
     // int climbStairs(int n) 
     // {
-    //     //tabulation approach with space optimisation 
-    //     if(n<=2) return n; 
+    //     memset(t, -1, sizeof(t)); 
+    //     return solve(n);
+    // }
 
-    //     int n1 = 1; 
-    //     int n2 = 2; 
+    // int climbStairs(int n) 
+    // {
+    //   if(n == 0 || n==1 || n==2 || n== 3) return n; 
+
+    //   int a = 1; 
+    //   int b = 2; 
+    //   int c = 3; 
+
+    //   for(int i=3; i<=n; i++)
+    //   {
+    //     c = b + a; 
+
+    //     int temp_b = b; 
+    //     b = c; 
+    //     a = temp_b; 
+    //   }
+
+    //   return c; 
+    // }
+
+    // int arr[46];
+    
+    // int solve(int n)
+    // {
+    //     if(n == 1 || n==2 || n==3) return n; 
+    //     arr[0] = 0; 
+    //     arr[1] = 1; 
+    //     arr[2] = 2;
 
     //     for(int i=3; i<=n; i++)
     //     {
-    //         int curr = n1 + n2; 
-    //         n1 = n2; 
-    //         n2 = curr; 
+    //         arr[i] = arr[i-1] + arr[i-2]; 
     //     }
+    //     return arr[n];
+    // }
 
-    //     return n2; 
+    // int climbStairs(int n) 
+    // {
+    //     //we're going to store the values in an array 
+
+    //     return solve(n);
+
     // }
 
 
@@ -23,54 +72,31 @@ public:
 
 
 
+    int solve(int n, vector<int>&dp)
+    {
+        if(n == 0 ) return 1; 
+        if(n<0) return 0; 
 
+        if(dp[n] != -1) return dp[n]; 
 
+        int one_step = solve(n-1, dp); 
+        int two_step = solve(n-2, dp); 
 
-
-
-
-
-
-
-
-
-
-
-
-   int rec(int n, int ind, vector<int>&dp)
-   {
-    if(ind == n) return 1; 
-    if(ind > n) return 0; 
-
-    int s1 = rec(n, ind+1, dp); 
-    int s2 = rec(n, ind+2, dp); 
-
-    return dp[ind] = s1+s2; 
-   }
+        return dp[n] = one_step + two_step; 
+        
+    }
 
     int climbStairs(int n) 
     {
-        if(n <=2) return n; 
-        // vector<int>dp(n+1, -1); 
-        // return rec(n, 0, dp); 
+        vector<int>dp(n+1, -1); 
+        dp[0] = 0; 
 
-        int onestep = 1;
-        int twostep = 2;
-        
-        // for(int i=0; i<3; i++) dp[i] = i;
+        solve(n, dp); 
+        return dp[n]; 
 
-        for(int i=3; i<=n; i++)
-        {
-            // int onestep = dp[i-1];
-            // int twostep = dp[i-2];
-            // dp[i] = onestep + twostep; 
-
-            int curr = onestep + twostep; 
-            onestep = twostep; 
-            twostep = curr; 
-        }
-
-        return twostep;
-        
     }
+
+
+
+
 };
