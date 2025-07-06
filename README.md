@@ -458,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3447-clear-digits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3502-count-substrings-with-k-frequency-characters-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3709-find-special-substring-of-length-k](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3709-find-special-substring-of-length-k) |
 | [3732-calculate-score-after-performing-instructions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3732-calculate-score-after-performing-instructions) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
@@ -622,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3502-count-substrings-with-k-frequency-characters-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3705-find-the-largest-almost-missing-integer) |
 | [3732-calculate-score-after-performing-instructions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3732-calculate-score-after-performing-instructions) |
@@ -867,6 +869,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2856-count-complete-subarrays-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3483-alternating-groups-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3483-alternating-groups-ii) |
+| [3502-count-substrings-with-k-frequency-characters-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Radix Sort
 |  |
