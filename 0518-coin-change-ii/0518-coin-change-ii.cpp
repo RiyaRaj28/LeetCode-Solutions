@@ -19,8 +19,34 @@ public:
     int change(int amount, vector<int>& coins) 
     {
         int n = coins.size(); 
-        vector<vector<int>>memo(n, vector<int>(amount+1, -1)); 
-        return recur(coins, n-1, amount, memo); 
+        // vector<vector<int>>memo(n, vector<int>(amount+1, -1)); 
+        // return recur(coins, n-1, amount, memo); 
+
+        vector<vector<long long>>dp(n, vector<long long>(amount+1, 0)); 
+        // dp[0][0] = 1;
+
+        for(int targ=0; targ<=amount; targ++)
+        {
+            if(targ % coins[0] == 0) dp[0][targ] = 1;
+        }
+
+        for(int i=1; i<n; i++)
+        {
+            for(int targ = 0; targ <= amount; targ++)
+            {
+                int nottaken = dp[i-1][targ];
+
+                int taken = 0; 
+                if(targ - coins[i] >= 0)
+                {
+                    taken = dp[i][targ- coins[i]]; 
+                }
+
+                dp[i][targ] = (long long)taken + (long long)nottaken; 
+            }
+        }
+
+        return dp[n-1][amount]; 
         
         
     }
