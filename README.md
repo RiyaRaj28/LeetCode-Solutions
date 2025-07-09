@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0792-binary-search) |
 | [0829-subdomain-visit-count](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0829-subdomain-visit-count) |
 | [0854-making-a-large-island](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
+| [0875-longest-mountain-in-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0875-longest-mountain-in-array) |
 | [0890-lemonade-change](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0952-word-subsets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0952-word-subsets) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0875-longest-mountain-in-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0875-longest-mountain-in-array) |
 | [0943-sum-of-subarray-minimums](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0768-partition-labels](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0768-partition-labels) |
+| [0875-longest-mountain-in-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0875-longest-mountain-in-array) |
 | [0908-middle-of-the-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0908-middle-of-the-linked-list) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -895,6 +898,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0875-longest-mountain-in-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0875-longest-mountain-in-array) |
 | [1656-count-good-triplets](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1656-count-good-triplets) |
 | [2998-count-symmetric-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2998-count-symmetric-integers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3201-distribute-candies-among-children-ii) |
