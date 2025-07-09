@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0132-palindrome-partitioning-ii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0102-binary-tree-level-order-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1254-deepest-leaves-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1254-deepest-leaves-sum) |
@@ -561,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -588,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0102-binary-tree-level-order-traversal](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1254-deepest-leaves-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1254-deepest-leaves-sum) |
