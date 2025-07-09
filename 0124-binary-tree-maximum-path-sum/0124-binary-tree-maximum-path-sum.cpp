@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    int maxsum = INT_MIN; 
+    int maxsum; 
     int solve(TreeNode* root)
     {
         if(root == NULL) return 0; 
@@ -25,12 +25,13 @@ public:
 
         maxsum = max({maxsum, root_hi_acha, koi_ek_acha, neeche_mil_gaya}); 
 
-        return max(koi_ek_acha, neeche_mil_gaya);
+        return max(koi_ek_acha, root_hi_acha);
     }
 
 
     int maxPathSum(TreeNode* root) 
     {
+        maxsum = INT_MIN; 
         if(root == NULL) return 0; 
 
         solve(root); 
