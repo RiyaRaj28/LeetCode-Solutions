@@ -10,51 +10,34 @@
  */
 class Solution {
 public:
-    ListNode* deleteMiddle(ListNode* head) {
-        //BRUTE : FIND MID AND DELETE
-        // if(head==NULL || head->next==NULL) {return NULL;}
-        // ListNode* temp = head; 
-        // int count = 0; 
-        // while(temp!=NULL)
-        // {
-        //     count++; 
-        //     temp = temp->next; 
-        // }
+    ListNode* deleteMiddle(ListNode* head) 
+    {
+        int cnt = 0; 
+        ListNode* temp = head; 
+        if(head == NULL || head->next == NULL) return NULL; 
 
-        // int mid = count/2; 
-
-        // temp=head; 
-        // while(temp!=NULL)
-        // {
-        //     mid--; 
-        //     if(mid==0)
-        //     {
-        //                 ListNode  *middle = temp->next; 
-        // temp->next = temp->next->next; 
-        // delete middle; 
-        // break; 
-        //     }
-
-        //     temp = temp->next; 
-        // }
-        
-
-        // return head; 
-
-        //TORTOISE-HARE METHOD
-        if(head==NULL || head->next==NULL) {return NULL;}
-        ListNode *fast=head, *slow=head; 
-        fast = fast->next->next; 
-
-        while(fast!=NULL && fast->next!=NULL)
+        while(temp != NULL)
         {
-            slow = slow->next; 
-            fast = fast->next->next; 
+            cnt++;
+            temp = temp->next; 
+            
         }
 
-        ListNode* delnode = slow->next; 
-        slow->next = slow->next->next; 
-        delete delnode; 
+        temp = head; 
+        cnt = cnt/2; 
+
+        while(temp!= NULL)
+        {
+            cnt--; 
+            if(cnt == 0) break; 
+            temp = temp->next;
+        }
+
+        ListNode* todel = temp->next; 
+        temp->next = temp->next->next; 
+        delete(todel); 
+
         return head; 
+        
     }
 };
