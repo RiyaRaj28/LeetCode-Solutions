@@ -1,42 +1,41 @@
 class Solution {
 public:
-    void nextPermutation(vector<int>& nums) {
-        //brute : using stl 
-        if(next_permutation(nums.begin(), nums.end()) ==true)
+    void nextPermutation(vector<int>& arr) 
+    {
+        // find arr[i] > arr[i+1] from n-2 -> 0
+        // from ind to n-1, find arr[i] > arr[ind], swap them 
+        // reverse from arr[ind+1] to end
+
+        int n = arr.size(); 
+        int ind = -1; 
+        for(int i=n-2; i>=0; i--)
         {
-            return; 
+            if(arr[i] < arr[i+1])
+            {
+                ind = i; 
+                break; 
+            }
+        }
+
+        if(ind == -1) 
+        {
+            reverse(arr.begin(), arr.end());
+            
         }
         else
         {
-            sort(nums.begin(), nums.end());        
+
+        for(int i=n-1; i>ind; i--)
+        {
+            if(arr[i] > arr[ind])
+            {
+                swap(arr[i], arr[ind]); 
+                break; 
+            }
         }
 
-        //logic of the stl 
-        // int index = -1; 
-        // int n = nums.size(); 
-        // for(int i=n-2; i>=0; i--)
-        // {
-        //     if(nums[i]<nums[i+1]) 
-        //     {
-        //         index = i; 
-        //         break;
-        //     }
-        // }
-
-        // if(index==-1) 
-        // {
-        //     reverse(nums.begin(), nums.end());
-        //     return; 
-        // }
-
-        // for(int i= n-1; i>index; i--)
-        // {
-        //     if(nums[i]>nums[index]) 
-        //         {swap(nums[index], nums[i]);
-        //         break; 
-        //         }
-        // }
-
-        // reverse(nums.begin() + index + 1, nums.end());         
+        reverse(arr.begin()+ind+1, arr.end()); 
+        }
+        
     }
 };
