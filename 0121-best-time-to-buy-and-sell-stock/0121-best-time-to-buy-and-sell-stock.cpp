@@ -1,57 +1,22 @@
 class Solution {
 public:
-
-   // this one question prevented me from getting selected in de shaw 
-   // prevented me from going to hyderabad 
-   // laid to waste my so much of hard work 
     int maxProfit(vector<int>& prices) 
     {
-        // int mini = prices[0]; 
-        // int profit = 0; 
-        // int n = prices.size();
-        // for(int i=1; i<n; i++)
-        // {
-        //     int cost = prices[i] - mini; 
-        //     profit = max(profit, cost); 
+        int n = prices.size(); 
 
-        //     mini = min(mini, prices[i]); 
-        // }
-
-        // return profit; 
-
-
-
-
-
-        int prevmin = prices[0]; 
-        int profit = 0; 
-        for(int i=1; i<prices.size(); i++)
+        int mini = INT_MAX; 
+        int profit = INT_MIN;
+        for(int i=0; i<n; i++)
         {
-            if(prices[i] < prevmin)
+            if(prices[i] < mini)
             {
-                prevmin = prices[i];
+                mini = prices[i]; 
             }
-            else
-            {
-                profit = max(profit, prices[i] - prevmin); 
-            }
+
+            profit = max(profit, prices[i]-mini); 
         }
+
         return profit; 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         
     }
 };
