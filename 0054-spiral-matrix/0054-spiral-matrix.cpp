@@ -1,90 +1,46 @@
 class Solution {
 public:
-    vector<int> spiralOrder(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        int m = matrix[0].size();
-        // int left = 0, right = m-1;
-        // int top = 0, bottom = n-1;
+    vector<int> spiralOrder(vector<vector<int>>& matrix) 
+    {
+        int m = matrix.size(); 
+        int n = matrix[0].size(); 
 
-        // vector<int> ans; 
-
-        // while(left<=right && top<=bottom)
-        // {
-        //     for(int i=left; i<=right; i++)
-        //     {
-        //         ans.emplace_back(matrix[top][i]); 
-        //     }
-        //     top++;
-
-        //     for(int i=top; i<=bottom; i++)
-        //     {
-        //         ans.emplace_back(matrix[i][right]);
-        //     }
-        //     right--;
-
-        //     if(top<=bottom)
-        //     {
-        //     for(int i=right; i>=left; i--)
-        //     {
-        //         ans.emplace_back(matrix[bottom][i]);
-        //     }
-        //     bottom--; 
-        //     }
-            
-        //     if(left<=right)
-        //     {
-        //     for(int i=bottom; i>=top; i--)
-        //     {
-        //         ans.emplace_back(matrix[i][left]);
-        //     }
-        //     left++;
-        //     }
-        // }
-
-        // return ans; 
-
-
-
-
-        int left = 0, right = m-1, bottom = n-1, top = 0; 
-
+        int l = 0, r = n-1, t = 0, b = m-1; 
         vector<int>ans; 
 
-        while(top <= bottom && left <= right)
+        while(l<=r && t<=b)
         {
-            for(int i=left; i<=right; i++)
+            for(int i=l; i<=r; i++)
             {
-                ans.push_back(matrix[top][i]); 
+                ans.push_back(matrix[t][i]); 
             }
-            top++; 
+            t++; 
 
-            for(int i=top; i<=bottom; i++)
+            for(int i=t; i<=b; i++)
             {
-                ans.push_back(matrix[i][right]); 
+                ans.push_back(matrix[i][r]); 
             }
-            right--; 
+            r--; 
 
-            if(top<=bottom)
+            if(t<=b)
             {
-                for(int i=right; i>=left; i--)
+                for(int i=r; i>=l; i--)
                 {
-                    ans.push_back(matrix[bottom][i]); 
+                    ans.push_back(matrix[b][i]);
                 }
+                b--; 
             }
-            bottom--; 
 
-            if(left<=right)
+            if(l<=r)
             {
-                for(int i=bottom; i>=top; i--)
+                for(int i=b; i>=t; i--)
                 {
-                    ans.push_back(matrix[i][left]); 
+                    ans.push_back(matrix[i][l]); 
                 }
+                l++; 
             }
-            left++; 
         }
         return ans; 
-
-
         
     }
 };
