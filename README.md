@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0048-rotate-image](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
@@ -246,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0069-sqrtx) |
