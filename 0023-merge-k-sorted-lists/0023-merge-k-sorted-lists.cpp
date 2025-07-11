@@ -10,99 +10,54 @@
  */
 class Solution {
 public:
+struct comp
+{
+    bool operator()(ListNode* a, ListNode* b)
+    {
+        return a->val > b->val; 
+    }
+};
+
     ListNode* mergeKLists(vector<ListNode*>& lists) 
     {
-        // brute : traverse through each list and store in an array, then sort the array
-        // merge sort 
-        // priority queue : minHeap 
+        priority_queue<ListNode*, vector<ListNode*>, comp>pq; 
 
-        // we are given starting of every linked list 
-
-        // complete -> 
-        if(lists.empty()) return NULL; 
-        priority_queue<int, vector<int>, greater<int>> min_heap;
-
-        ListNode* dummy = new ListNode(0);
-        ListNode* curr = dummy; 
-
-        for(int i=0; i<lists.size(); i++)
+        for(auto it : lists)
         {
-            ListNode* temp = lists[i];
-            while(temp!=NULL)
-            {
-                    min_heap.push(temp->val);
-                    temp = temp->next;          //the next element
-            }
+            if(it) pq.push(it); 
         }
 
-        while(!min_heap.empty())
+        ListNode* dummy = new ListNode(-1); 
+        ListNode* temp = dummy; 
+
+        while(!pq.empty())
         {
-            curr->next = new ListNode(min_heap.top());
-            min_heap.pop();
-            curr = curr->next; 
+            ListNode* node = pq.top(); 
+            pq.pop(); 
+
+            temp->next = node; 
+            temp = temp->next; 
+
+            if(node->next) pq.push(node->next); 
         }
 
-        ListNode *head = dummy->next;
-        delete dummy; 
-        return head; 
+        temp->next = NULL; 
+
+        return dummy->next; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     }
-
-
-
-
-        //method2 : Merge Sort 
-
-    // ListNode* merge(ListNode* l1, ListNode* l2)
-    // {
-    //     //merge function -> to merge the elements based on their values
-    //     // have to merge two lists though 
-
-    //     ListNode* dummy = new ListNode(0);
-    //     ListNode* curr = dummy; 
-
-    //     while(l1!=NULL && l2!=NULL)
-    //     {
-    //         if(l1->val <= l2->val)
-    //         {
-    //             curr->next = l1; 
-    //             l1 = l1->next;
-    //         }
-    //         else
-    //         {
-    //             curr->next = l2; 
-    //             l2 = l2->next; 
-    //         }
-
-    //         curr = curr->next; 
-    //     }
-
-    //     curr->next = (l1!=NULL) ? l1 : l2; 
-
-    //     return dummy->next; 
-    // }
-
-    // ListNode* MergeSort(vector<ListNode*> arr, int start, int end)
-    // {
-    //     if(arr.empty()) return NULL; 
-    //     if(start == end) return arr[start];
-        
-    //         int mid = start + (end-start)/2; 
-
-    //         ListNode *left = MergeSort(arr, start, mid);
-    //         ListNode *right = MergeSort(arr, mid+1, end);
-
-    //         return merge(left, right);
-
-    // }
-
-
-    // ListNode* mergeKLists(vector<ListNode*>& lists) {
-    //     if(lists.empty()) return NULL;
-
-    //     return MergeSort(lists, 0, lists.size()-1);
-    // }
-
-    
-
-        
 };
