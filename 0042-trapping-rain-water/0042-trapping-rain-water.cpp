@@ -1,41 +1,32 @@
 class Solution {
 public:
-
-    // vector<int>NLL(vector<int>&arr)
-    // {
-    //     int n = arr.size();
-    //     vector<int>nll(n);
-    //     stack<int>st; 
-
-    //     for(int i=0; i<n; i++)
-    //     {
-    //         if(st.empty())  
-    //     }
-    // }
-
     int trap(vector<int>& height) 
     {
-        int n = height.size();
-        int left = 0, right = n-1; 
+        int n = height.size(); 
+        int maxleft = height[0];
+        int maxright = height[n-1]; 
+        int left = 1; 
+        int right = n-2;
+        int ans = 0; 
 
-        int maxleft = 0, maxright = 0, sum = 0; 
         while(left <= right)
         {
-            if(height[left] <= height[right])
+            if(maxleft <= maxright)
             {
-                if(height[left] > maxleft) maxleft = height[left];
-                else sum += maxleft - height[left];
+                ans += max(0, maxleft-height[left]);
+                maxleft = max(maxleft, height[left]); 
 
-                left++; 
+                left++;
             }
             else
             {
-                if(height[right] > maxright) maxright = height[right];
-                else sum += maxright - height[right];
+                ans += max(0, maxright-height[right]); 
+                maxright = max(maxright, height[right]); 
 
-                right--; 
+                right--;
             }
         }
-        return sum; 
+        return ans; 
+        
     }
 };
