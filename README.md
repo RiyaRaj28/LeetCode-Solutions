@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0967-minimum-falling-path-sum) |
 | [0974-reorder-data-in-log-files](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0974-reorder-data-in-log-files) |
+| [1014-k-closest-points-to-origin](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1034-subarrays-with-k-different-integers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0412-fizz-buzz](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0412-fizz-buzz) |
 | [0507-perfect-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0507-perfect-number) |
+| [1014-k-closest-points-to-origin](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1477-product-of-the-last-k-numbers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2050-count-good-numbers](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0780-max-chunks-to-make-sorted](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0974-reorder-data-in-log-files](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0974-reorder-data-in-log-files) |
+| [1014-k-closest-points-to-origin](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1129-longest-string-chain](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1129-longest-string-chain) |
 | [1184-car-pooling](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1184-car-pooling) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -774,6 +777,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1014-k-closest-points-to-origin](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1127-last-stone-weight) |
 | [1184-car-pooling](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1184-car-pooling) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -890,12 +894,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [2280-count-good-triplets-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 ## Merge Sort
 |  |
 | ------- |
@@ -980,4 +986,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
