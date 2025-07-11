@@ -2,65 +2,29 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) 
     {
-        //sliding window 
-        int l = 0, r = 0; 
-        int maxlen = 0; 
         int n = s.length(); 
-        unordered_set<int>st; 
-        int len = 0; 
-
-        // while(r<n)
-        // {
-        //     if(st.find(s[r]) == st.end())
-        //     {
-        //         st.insert(s[r]);
-        //         r++; 
-        //         len = r-l; 
-        //     }
-        //     else
-        //     {
-        //         while(s[l] != s[r])
-        //         {
-        //             st.erase(s[l]);
-        //             l++;
-        //         }
-        //         st.erase(s[l]);
-        //         l++; 
-        //     }
-
-        //     maxlen = max(maxlen, len); 
-        // }
-        // return maxlen; 
         
-        // for(int r=0; r<n; r++)
-        // {
-        //     if(st.find(s[r]) != st.end())
-        //     {
-        //         while(l<r && st.find(s[r])!= st.end())
-        //         {
-        //             st.erase(s[l]);
-        //             l++; 
-        //         }
-        //     }
-            
-        //     st.insert(s[r]);
-        //     maxlen = max(maxlen, r-l+1); 
-        // }
-        // return maxlen; 
-
-        //optimised hashed approach 
-        vector<int>hash(256, -1); 
+        int l = 0, r = 0; 
+        int maxcnt = 0; 
+        unordered_set<char>st; 
         while(r<n)
         {
-            if(hash[s[r]] != -1)
+            if(st.find(s[r]) != st.end())
             {
-                l = max(hash[s[r]]+1, l);
+                while(st.find(s[r]) != st.end())
+                {
+                    st.erase(s[l]); 
+                    l++;
+                }
             }
 
-            hash[s[r]] = r;
-            maxlen = max(maxlen, r-l+1);
-            r++;
+            st.insert(s[r]); 
+            maxcnt = max(maxcnt, r-l+1);
+            r += 1; 
         }
-        return maxlen; 
+
+        return maxcnt; 
+
+        
     }
 };
