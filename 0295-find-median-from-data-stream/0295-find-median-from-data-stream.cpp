@@ -13,7 +13,7 @@ public:
         if(max_pq.empty() || num < max_pq.top()) max_pq.push(num);
         else min_pq.push(num);
 
-        if(max_pq.size() > 1 + min_pq.size() || min_pq.size() > max_pq.size() + 1)
+        if(max_pq.size() > 1 + min_pq.size())
         {
             min_pq.push(max_pq.top());
             max_pq.pop();
