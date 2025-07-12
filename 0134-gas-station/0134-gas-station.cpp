@@ -33,9 +33,11 @@ public:
         int n = gas.size(); 
         int currgas = 0; 
         int stidx = 0; 
+        int totalgas = 0; 
         for(int i=0; i<n; i++)
         {
             currgas = currgas + gas[i] - cost[i]; 
+            totalgas += gas[i] - cost[i]; 
 
             if(currgas < 0)
             {
@@ -44,20 +46,23 @@ public:
             }
         }
 
-        currgas = 0; 
-
-        for(int i=0; i<n; i++)
-        {
-            int j = (i+stidx)%n; 
-            currgas += gas[j] - cost[j]; 
-
-            if(currgas < 0)
-            {
-                return -1;
-            }
-        }
-
+        if(totalgas < 0) return -1; 
         return stidx; 
+
+
+
+        // for(int i=0; i<n; i++)
+        // {
+        //     int j = (i+stidx)%n; 
+        //     currgas += gas[j] - cost[j]; 
+
+        //     if(currgas < 0)
+        //     {
+        //         return -1;
+        //     }
+        // }
+
+        // return stidx; 
     }
 };
 
