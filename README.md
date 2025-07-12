@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2145-grid-game](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -358,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [1917-maximum-average-pass-ratio](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2300-construct-string-with-repeat-limit](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2509-minimize-xor](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2509-minimize-xor) |
