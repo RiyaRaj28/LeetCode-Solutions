@@ -1,40 +1,24 @@
 class Solution {
 public:
-    double myPow(double x, int n) 
-    {
-        // if(x == 1 || n == 0) return 1; 
+    double myPow(double x, int n) {
 
-        // //when it is a neg power 
+        double ans = 1.0;
+        long long ctr = n; 
 
-
-
-        // double factor = x; 
-        // while(n>1)
-        // {
-        //     x *= factor; 
-        //     n--; 
-        // }
-        // return x; 
-        double result = 1.0; 
-        long long counter = n;
-
-        if(n < 0)
+        if(n<0)
         {
             x = 1/x;
-            counter = -counter; 
-        }
+            ctr = -ctr;
+        } 
 
-        while(counter > 0)
+        while(ctr>0)
         {
-            if(counter % 2 == 1)
-            {
-                result *= x; 
-            }
-
-            x *= x; 
-            counter /= 2; 
+            if(ctr%2==1) ans = ans*x;
+            x = x*x;
+            ctr = ctr/2;
         }
 
-        return result;
+        return ans; 
+        
     }
 };
