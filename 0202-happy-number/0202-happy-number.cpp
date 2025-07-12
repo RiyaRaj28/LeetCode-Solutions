@@ -16,42 +16,57 @@ public:
         return ans; 
     }
 
+    // bool isHappy(int n) 
+    // {
+    //     set<int>st; 
+        
+    //     int num = n;
+
+    //     while(true)
+    //     {
+    //         int sqdig = sq(num);
+    //         if(sqdig == 1) return true; 
+
+    //         if(st.find(sqdig) != st.end())
+    //         {
+    //             return false;
+    //         }
+    //         else 
+    //         {
+    //             num = sqdig;
+    //             st.insert(sqdig); 
+    //         }
+    //     }
+
+    //     return false;
+
+        
+    // }
+
     bool isHappy(int n) 
     {
-        set<int>st; 
-        
+        int slow = n; 
+        int fast = n; 
 
-        // while(st.find(num) != st.end() || st.find(1) != st.end())
-        // {
-        //     int sqdig = sq(num);
-
-        //     if(sqdig == 1) return true;
-        //     else
-        //     {
-        //         num = 
-        //     }
-
-        // }
-        int num = n;
-
-        while(true)
+        do
         {
-            int sqdig = sq(num);
-            if(sqdig == 1) return true; 
+            slow = sq(slow);
+            fast = sq(sq(fast)); 
+        }while(slow != fast);
 
-            if(st.find(sqdig) != st.end())
-            {
-                return false;
-            }
-            else 
-            {
-                num = sqdig;
-                st.insert(sqdig); 
-            }
-        }
-
-        return false;
-
-        
+        return slow==1;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
