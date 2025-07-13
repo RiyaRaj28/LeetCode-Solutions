@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
@@ -534,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
+| [0338-counting-bits](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/0338-counting-bits) |
 | [2308-divide-array-into-equal-pairs](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2478-longest-nice-subarray](https://github.com/RiyaRaj28/LeetCode-Solutions/tree/master/2478-longest-nice-subarray) |
