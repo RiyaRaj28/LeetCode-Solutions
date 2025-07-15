@@ -1,50 +1,45 @@
 class Solution {
 public:
 
-    void dfs(vector<vector<char>>&board, vector<vector<int>>&mat, int x, int y)
+    // do a dfs and mark all the os connected to the boundary as 
+    // non convertible then 
+    // mark all the rest Os as Xx
+
+    void dfs(int row, int col, vector<vector<char>>&board, vector<vector<int>>&marked)
     {
-        mat[x][y] = -1; 
         int m = board.size();
         int n = board[0].size();
 
-        int frow[4] = {-1, 0, 1, 0};
-        int fcol[4] = {0, 1, 0, -1};
+        marked[row][col] = -1;
+        vector<int>frow = {-1, 0, 1, 0};
+        vector<int>fcol = {0, 1, 0, -1};
 
-        for(int p=0; p<4; p++)
+        for(int i=0; i<4; i++)
         {
-            int nrow = x + frow[p];
-            int ncol = y + fcol[p]; 
+            int arow = row + frow[i];
+            int acol = col + fcol[i];
 
-             if(nrow>=0 && nrow<m && ncol>=0 && ncol<n && board[nrow][ncol] == 'O' && mat[nrow][ncol]!=-1)  {
-                    dfs(board, mat, nrow, ncol); 
-                }
+            if(arow>=0 && arow<m && acol>=0 && acol<n && board[arow][acol] == 'O' && marked[arow][acol] == 0)
+            {
+                dfs(arow, acol, board, marked);
+            }
+        }
     }
-    }
+
     void solve(vector<vector<char>>& board) 
     {
-        //dont have to return anything just change the O to X 
-        // we convert all the O's connected to the boundary to nonconvertible
-        // then we traverse again, and if it is a X and is non nonconvertible, then we convert it in this iteration 
-
-        // what do we have to do here 
-        // we can either do a dfs or a bfs 
-        // we use bfs only 
-        // we will push in queue if its connected to it 4 dirs 
-        int m = board.size(); 
-        int n = board[0].size(); 
-
-        vector<vector<int>>mat(m, vector<int>(n, 0)); 
+        int m = board.size();
+        int n = board[0].size();
+        vector<vector<int>>marked(m, vector<int>(n, 0));
 
         for(int i=0; i<m; i++)
         {
             for(int j=0; j<n; j++)
             {
-                if(i==0 || i==m-1 || j== 0 || j==n-1)
+                if(i==0 || i==m-1 || j==0 || j==n-1)
                 {
                     if(board[i][j] == 'O')
-                    {
-                        dfs(board, mat, i, j);
-                    }
+                        dfs(i, j, board, marked);
                 }
             }
         }
@@ -53,7 +48,7 @@ public:
         {
             for(int j=0; j<n; j++)
             {
-                if(board[i][j] == 'O' && mat[i][j] == 0)
+                if(board[i][j] == 'O' && marked[i][j] == 0)
                 {
                     board[i][j] = 'X';
                 }
